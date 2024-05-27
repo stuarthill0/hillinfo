@@ -6,10 +6,10 @@ Article
 
 In this article
 
-CV
-Education
-Experience
-Next steps
+**CV
+**Education
+**Experience
+**Next steps
 
 A Portal landing zone for recruiters.
 
