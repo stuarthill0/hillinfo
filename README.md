@@ -1,8 +1,6 @@
-Table 1: SAP Integration Suite – Services and Use Cases
-
-Services	Use Cases
-Cloud Integration	End-to-end process integrations (A2A), AI-accelerated business-to-business (B2B) and electronic data interchange (EDI) integrations, and business- to-government integrations with over 2,100 prebuilt integrations delivered as integration packs
-SAP Master Data Integration and SAP One Domain Model	Master data integrations across SAP applications in the intelligent suite
-SAP Data Intelligence	Data integration; data pipelining scenarios; and extract, transform, load (ETL) scenarios for data lakes and data warehouses that apply machine learning algorithms for data clustering, regression, and insights
-API Management	Full lifecycle management of enterprise APIs (design – develop – manage and developer engagement) with support for customers launching their own API domains and running enterprise API programs
-SAP API Business Hub	SAP’s directory of process blueprints, domain models, over 2,800 APIs, events, and integration packs, with an additional innovation of the new API Business Hub Enterprise, which is similar to a customer’s instance of SAP API Business Hub
+(Table).
+Application landing zone management approach | Description
+--- | --- |
+Central team management | A central IT team fully operates the landing zone. The team applies controls and platform tools to the platform and application landing zones.	
+Application team management | A platform administration team delegates the entire application landing zone to an application team. The application team manages and supports the environment. The management group policies ensure that the platform team still governs the application landing zone. You can add other policies at the subscription scope and use alternative tooling for deploying, securing, or monitoring application landing zones.
+Shared management | With technology platforms such as AKS or AVS, a central IT team manages the underlying service. The application teams are responsible for the applications running on top of the technology platforms. You need to use different controls or access permissions for this model. These controls and permissions differ from the ones you use to manage application landing zones centrally.
