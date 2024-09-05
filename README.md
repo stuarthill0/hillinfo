@@ -8,10 +8,11 @@
 <header class="entry-header"><h2 class="entry-hint-parent">Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</h2></header><div class="entry-content"><p>Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article><article class="post-entry"><header class="entry-header"><h2 class="entry-hint-parent">Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</h2></header><div class="entry-content"><p>Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</p></div><footer class="entry-footer"><span title="2024-05-05 00:00:00 +0000 UTC">May 5, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://github.com/stuarthill0/hillinfo/posts/Becoming an SAP BTP Solution Architect/"></a></article></main>
 
 > [!IMPORTANT]
-<a href="https://help.sap.com/docs/cloud-integration/sap-cloud-integration/connectivity-adapters?locale=en-US" title="connectivity-adapters"><span>connectivity-adapters</span></a>
-<a href="https://github.com/SAP/btp-solution-diagrams/tree/main/assets#sap-btp-solution-diagram-assets" title="btp-solution-diagrams"><span>btp-solution-diagrams</span></a>
-<a href="stuarthill0/sap_btp_icons_drawio_lib (L1) title="sap_btp_icons_drawio_lib (L1)"><span>sap_btp_icons_drawio_lib</span></a></li><li><a href="stuarthill0/azure-quickstart-templates (L2) title="azure-quickstart-templates (L2)"><span>azure-quickstart-templates</span></a><a href="stuarthill0/btp-genai-starter-kit (L2) title="btp-genai-starter-kit (L2)"><span>btp-genai-starter-kit</span></a>
-
+<a href="https://help.sap.com/docs/cloud-integration/sap-cloud-integration/connectivity-adapters?locale=en-US" title="connectivity-adapters"connectivity-adapters</a>
+<a href="https://github.com/SAP/btp-solution-diagrams/tree/main/assets#sap-btp-solution-diagram-assets" title="btp-solution-diagrams"btp-solution-diagrams</a>
+<a href="stuarthill0/sap_btp_icons_drawio_lib (L1) title="sap_btp_icons_drawio_lib (L1)"sap_btp_icons_drawio_lib</a>
+<a href="stuarthill0/azure-quickstart-templates (L2) title="azure-quickstart-templates (L2)"azure-quickstart-templates</a>
+<a href="stuarthill0/btp-genai-starter-kit (L2) title="btp-genai-starter-kit (L2)"btp-genai-starter-kit</a>
 
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
