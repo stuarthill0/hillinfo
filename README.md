@@ -6,7 +6,8 @@
 > [!BLOG TIP]
 
 <header class="entry-header"><h2 class="entry-hint-parent">Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</h2></header><div class="entry-content"><p>Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article><article class="post-entry"><header class="entry-header"><h2 class="entry-hint-parent">Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</h2></header><div class="entry-content"><p>Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</p></div><footer class="entry-footer"><span title="2024-05-05 00:00:00 +0000 UTC">May 5, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://github.com/stuarthill0/hillinfo/posts/Becoming an SAP BTP Solution Architect/"></a></article></main>
->
+
+
 > [!IMPORTANT LINKS]
 <span><a href="https://help.sap.com/docs/cloud-integration/sap-cloud-integration/connectivity-adapters?locale=en-US">connectivity-adapters</a></span>
 <span><a href="https://github.com/SAP/btp-solution-diagrams/tree/main/assets#sap-btp-solution-diagram-assets">btp-solution-diagrams</a></span>
