@@ -4,13 +4,29 @@
 #SAP S/4HANA <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg"> #SAP R/3, NetWeaver <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg">  #Administration SAP Basis  <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/StarredRepositoryYellow.svg">  #Release, Change Management  <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/StarredRepository.svg">
 
 > [!TIP]
+> Activity
+followers 425
 
 <header class="entry-header"><h2 class="entry-hint-parent">Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</h2></header><div class="entry-content"><p>Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article><article class="post-entry"><header class="entry-header"><h2 class="entry-hint-parent">SAP Security Administration and Security Core Concepts
 </h2></header><div class="entry-content"><p>SAP Security Administration and Security Core Concepts
-</p></div><footer class="entry-footer"><span title="2024-05-05 00:00:00 +0000 UTC">May 5, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://github.com/stuarthill0/hillinfo/posts/Becoming an SAP BTP Solution Architect/"></a></article></main>
+</p></div><footer class="entry-footer"><span title="2024-05-05 00:00:00 +0000 UTC">May 5, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Google Cloud Security Summit" href="https://github.com/stuarthill0/hillinfo/posts/Google Cloud Security Summit/"></a></article></main>
+<header class="entry-header"><h2 class="entry-hint-parent">Google Cloud Security Summit</h2></header><div class="entry-content"><p>Google Cloud Security Summit</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article>
+
+Other:
+
+Stuart Hill posted this • 2mo2mo
+SAP Cloud Integration: How to call DocuSign from iFlow: Authentication, community.sap.com
+
+Stuart Hill posted this • 3mo3mo
+Automatically update SSL Certificates before they expire in SAP CPI, community.sap.com
+
+Stuart Hill posted this • 3mo3mo
+Using on-premise systems in your SAP Cloud Identity Services https://community.sap.com/t5/technology-blogs-by-sap/using-on-premise-systems-in-your-sap-cloud-identity-services-tenant/ba-p/13807183
+
 
 > [!IMPORTANT]
-> Link info.
+> FAQ Links.
+/Enterprise Aerchitecture
 - <a href="https://help.sap.com/docs/cloud-integration/sap-cloud-integration/connectivity-adapters?locale=en-US">connectivity-adapters</a></span>
 - <span><a href="https://github.com/SAP/btp-solution-diagrams/tree/main/assets#sap-btp-solution-diagram-assets">btp-solution-diagrams</a></span>
 - <span><a href="stuarthill0/sap_btp_icons_drawio_lib (L1)">sap_btp_icons_drawio_lib (L1)</a></span>
