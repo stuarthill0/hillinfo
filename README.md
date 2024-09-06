@@ -26,6 +26,7 @@ Using on-premise systems in your SAP Cloud Identity Services https://community.s
 
 > [!IMPORTANT]
 > Administration Guide.
+
 /Enterprise Aerchitecture
 - <a href="https://help.sap.com/docs/cloud-integration/sap-cloud-integration/connectivity-adapters?locale=en-US">connectivity-adapters</a></span>
 - <span><a href="https://github.com/SAP/btp-solution-diagrams/tree/main/assets#sap-btp-solution-diagram-assets">btp-solution-diagrams</a></span>
