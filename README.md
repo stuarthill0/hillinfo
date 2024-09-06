@@ -3,13 +3,14 @@
     
 #SAP S/4HANA <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg"> #SAP R/3, NetWeaver <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg">  #Administration SAP Basis  <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/StarredRepositoryYellow.svg">  #Release, Change Management  <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/StarredRepository.svg">
 
+<header class="entry-header"><h2 class="entry-hint-parent">Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</h2></header><div class="entry-content"><p>Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article><article class="post-entry"><header class="entry-header"><h2 class="entry-hint-parent">SAP Security Administration and Security Core Concepts
+</h2></header><div class="entry-content"><p>SAP Security Administration and Security Core Concepts
+</p></div><footer class="entry-footer"><span title="2024-05-05 00:00:00 +0000 UTC">May 5, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Google Cloud Security Summit" href="https://github.com/stuarthill0/hillinfo/posts/Google Cloud Security Summit/"></a></article></main>
+
 > [!TIP]
 > Activity
 followers 425
 
-<header class="entry-header"><h2 class="entry-hint-parent">Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</h2></header><div class="entry-content"><p>Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article><article class="post-entry"><header class="entry-header"><h2 class="entry-hint-parent">SAP Security Administration and Security Core Concepts
-</h2></header><div class="entry-content"><p>SAP Security Administration and Security Core Concepts
-</p></div><footer class="entry-footer"><span title="2024-05-05 00:00:00 +0000 UTC">May 5, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Google Cloud Security Summit" href="https://github.com/stuarthill0/hillinfo/posts/Google Cloud Security Summit/"></a></article></main>
 <header class="entry-header"><h2 class="entry-hint-parent">Google Cloud Security Summit</h2></header><div class="entry-content"><p>Google Cloud Security Summit</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article>
 
 Other:
@@ -38,12 +39,6 @@ Using on-premise systems in your SAP Cloud Identity Services https://community.s
 /Identity Authentication service documentation
 SAP IAS Product Documentation 
 SAP IPS Product Documentation
-
-> [!WARNING]
-> Urgent info.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 <footer class="footer"><span>© 2024 <a href="https://github.com/stuarthill0/hillinfo/">Stuart hill</a></span> ·
 <span>Copyright [Apache License v2.0]
