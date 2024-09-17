@@ -26,11 +26,16 @@ Using on-premise systems in your SAP Cloud Identity Services https://community.s
 
 
 > [!IMPORTANT]
-> Administration Guide.
+> Link List.
 
 /AI
 - google speech service https://cloud.google.com/text-to-speech/docs/apis (eg.https://nextup.com/ivona/)
 - microsoft speech service azure https://learn.microsoft.com/en-us/azure/ai-services/speech-service/overview
+
+/Language
+https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_trvo6yf6
+
+https://me.sap.com/processnavigator/
 
 /Enterprise Architecture
 - <a href="https://help.sap.com/docs/cloud-integration/sap-cloud-integration/connectivity-adapters?locale=en-US">connectivity-adapters</a></span>
@@ -46,6 +51,9 @@ https://support.microsoft.com/de-de/office/spezifikationen-und-beschränkungen-i
 /Identity Authentication service documentation
 SAP IAS Product Documentation 
 SAP IPS Product Documentation
+
+/Enable Now
+https://enable-now.sap.com/ic/pub/ext/index.html?show=slide!SL_68C3EB1C2C7F3680
 
 <footer class="footer"><span>© 2024 <a href="https://github.com/stuarthill0/hillinfo/">Stuart hill</a></span> ·
 <span>Copyright [Apache License v2.0]
