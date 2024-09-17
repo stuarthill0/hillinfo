@@ -57,9 +57,11 @@ https://enable-now.sap.com/ic/pub/ext/index.html?show=slide!SL_68C3EB1C2C7F3680
 
 > [!CAUTION]
 > Hot News.
+https://userapps.support.sap.com/sap/support/knowledge/en/3418866
 Starting in Q1/24, end users may face issues with their web applications when running in Chrome due to Chrome's third-party cookie deprecation.
 End users could experience broken authentication flows or content sections not loading or behaving correctly. 
-
+#Chrome #Edge #Firefox #Safari
+ 
 <footer class="footer"><span>© 2024 <a href="https://github.com/stuarthill0/hillinfo/">Stuart hill</a></span> ·
 <span>Copyright [Apache License v2.0]
 >
