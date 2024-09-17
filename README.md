@@ -11,11 +11,10 @@ Please submit any questions related to:
 > Activity
 followers 425
 
-Upcoming
+Upcoming topics:
 13.05.2025 > Support Topics:
 
 Past topics:
-13.05.2024 > Support Topics: 
 <header class="entry-header"><h2 class="entry-hint-parent">Google Cloud Security Summit</h2></header><div class="entry-content"><p>Google Cloud Security Summit</p></div><footer class="entry-footer"><span title="2024-05-13 00:00:00 +0000 UTC">May 13, 2024</span>&nbsp;·&nbsp;Stuart hill</footer><a class="entry-link" aria-label="post link to Achievement Certificate by SAP Learning Journeys/ Becoming an SAP BTP Solution Architect" href="https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/defining-the-integration-strategy"></a></article>
 
 Stuart Hill posted this • 2mo2mo
