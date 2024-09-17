@@ -36,6 +36,9 @@ Using on-premise systems in your SAP Cloud Identity Services https://community.s
 - <span><a href="stuarthill0/azure-quickstart-templates (L2)">azure-quickstart-templates (L2)</a></span>
 - <span><a href="stuarthill0/btp-genai-starter-kit (L2)">btp-genai-starter-kit (L2)</a></span>
 
+/Microsoft Excel
+https://support.microsoft.com/de-de/office/spezifikationen-und-beschränkungen-in-excel-1672b34d-7043-467e-8e27-269d656771c3
+
 /Identity Authentication service documentation
 SAP IAS Product Documentation 
 SAP IPS Product Documentation
