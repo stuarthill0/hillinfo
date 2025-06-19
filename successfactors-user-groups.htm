@@ -1,0 +1,1635 @@
+<!DOCTYPE html><html prefix="og: http://ogp.me/ns#" dir="ltr" lang="en" class="no-js">
+	<head>
+	
+	<title>
+	SAP SuccessFactors User Groups | SAP Community
+</title>
+	
+	
+	
+<script type="text/javascript">
+   function DataContainer(){
+        var data = {
+            "loginStatus": "no",
+            "pageName": "SAP SuccessFactors User Groups",
+            "pageTemplate": "CategoryPage",
+            "country": "glo",
+            "productIDs": "",
+            "nodeId": "920",
+            "messageId": "",
+            "messageTitle": "",
+            "messageType": "",
+            "messageCreateDate": "",
+            "user_tags": [],
+            "labels": [],
+            "pageId": "1/16/920",
+        }
+        this.getProp = function(name){ return data[name]; }
+    }
+</script>
+
+<script type="text/javascript">window.adobeDataLayer=window.adobeDataLayer||[];function CommunityEDDLCore(){this.sendEvent=function(event){window.adobeDataLayer.push(event)}}function CommunityEDDLLoginState(pageData){var hasUserLoggedIn=LITHIUM.CommunityJsonObject.Activity.Results.filter(item=>item.name==='UserSignedOn').length>0;var currentState=pageData.getProp("loginStatus");var prevState=localStorage.getItem("userLoggedIn")||currentState;localStorage.setItem("userLoggedIn",currentState);this.isLogin=function(){return hasUserLoggedIn&&currentState==="yes"};this.isLogout=function(){return prevState!=currentState&&currentState==="no"};this.isAuthenticationEvent=function(){return this.isLogin()||this.isLogout()}}function CommunityEDDLEvents(){var eddl=new CommunityEDDLCore();var pageData=new DataContainer();this.global=function(){eddl.sendEvent({'event':'globalDL','site':{'name':'scn-com','country':pageData.getProp('country')},'user':{'loginStatus':pageData.getProp('loginStatus')}})};this.pageView=function(){eddl.sendEvent({'event':'pageView','page':{'pageId':pageData.getProp('pageId'),'name':location.pathname.slice(1)||'/','title':pageData.getProp('pageName'),'template':pageData.getProp('pageTemplate'),'section':location.pathname.split('/')[2]||'/','language':'en','country':pageData.getProp('country'),'url':window.location.href,'referrer':document.referrer,'semaphoreID':pageData.getProp('productIDs')},'user':{'loginStatus':pageData.getProp('loginStatus')}})};this.siteContent=function(){if(!pageData.getProp('messageId')){return}eddl.sendEvent({'event':'siteContentView','siteContent':{'contentid':pageData.getProp('messageId'),'type':pageData.getProp('messageType'),'title':pageData.getProp('messageTitle'),'tag':pageData.getProp('user_tags'),'language':'en','createDate':pageData.getProp('messageCreateDate'),'nodeID':pageData.getProp('nodeId'),'label':pageData.getProp('labels')},'user':{'loginStatus':pageData.getProp('loginStatus')}})};this.login=function(){var loginState=new CommunityEDDLLoginState(pageData);if(!loginState.isAuthenticationEvent()){return}eddl.sendEvent({'event':loginState.isLogin()?'userLogin':'userLogout','user':{'loginStatus':pageData.getProp('loginStatus')}})};this.beacon=function(){eddl.sendEvent({'event':'stBeaconReady'})}}function CommunityScenarios(){var events=new CommunityEDDLEvents();this.pageView=function(){events.global();events.login();events.pageView();events.siteContent();events.beacon()};this.kudo=function(){};this.subscription=function(){}}window.addEventListener('load',()=>{if(LITHIUM?.CommunityJsonObject?.Activity?.Results==undefined){console.error("SAP EDDL: Tracking is disabled due to LITHIUM.CommunityJsonObject.Activity.Results is undefined");return}var eddlScenarios=new CommunityScenarios();eddlScenarios.pageView()});</script><script defer type="module">
+  window.uidBaselineSettings = {
+    authority: "https://accounts.sap.com",
+    clientId: "2457c8f4-c090-4720-a3c0-2234e6d7facf",
+    silentRedirectUri: "/plugins/custom/sap/sap/sap.baseline.login",
+    sessionLifetime: 30, 
+    action: "silentSignIn",
+    forceUidCreation: true,
+    uidUserinfoUri: "https://uts-api.account.sap.com/uts/token/userinfo",
+    uidRegisterUri: "https://account.sap.com/core/create/register",
+    logoutRedirectUri: "/plugins/common/feature/oidcss/sso_logout_redirect/providerid/sap_ids",
+    communityLoginAttempt: "sap.baseline.loginattempt",
+    communityLoginAttemptRepeatMinutes: 5
+  };
+</script>
+
+  <script defer type="module">
+    function sapLoginUser(event) {
+      try {
+        let lastLoginAttempt = localStorage.getItem(window.uidBaselineSettings.communityLoginAttempt)
+        let now = new Date().getTime();
+        if (lastLoginAttempt === null || (now - Number(lastLoginAttempt))/(1000*60) > window.uidBaselineSettings.communityLoginAttemptRepeatMinutes){
+          localStorage.setItem(window.uidBaselineSettings.communityLoginAttempt, now)
+          console.log("login attempt")
+        } else {
+          console.log("skip login attempt")
+          return;
+        }
+        window.location="/plugins/common/feature/oidcss/sso_login_redirect/providerid/sap_ids?referer=https%3A%2F%2Fcommunity.sap.com%2Ft5%2Fsap-successfactors-user-groups%2Fct-p%2Fsuccessfactors-user-groups";
+      } catch (err) {
+        console.log(err)
+        console.log("user is not logged in")
+      }
+    }
+    window.addEventListener("startUidSession", sapLoginUser, false);
+    window.addEventListener("validUidSession", sapLoginUser, false);
+  </script>
+
+
+
+<script defer type="module" src="https://cdn.account.sap.com/js/uid-baseline.js"></script>
+
+	
+	
+	
+	<meta content="Connect with SAP SuccessFactors users and experts from around the world to share knowledge, learn about new features, and solve problems." name="description"/><meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/><link href="https://community.sap.com/t5/sap-successfactors-user-groups/ct-p/successfactors-user-groups" rel="canonical"/>
+	<meta content="https://groups.community.sap.com/html/assets/SAP_R_grad_200x200.png" property="og:image"/><meta content="SAP Community" property="og:site_name"/><meta content="website" property="og:type"/><meta content="https://community.sap.com/t5/sap-successfactors-user-groups/ct-p/successfactors-user-groups" property="og:url"/><meta content="Connect with SAP SuccessFactors users and experts from around the world to share knowledge, learn about new features, and solve problems." property="og:description"/><meta content="SAP SuccessFactors User Groups | SAP Community" property="og:title"/>
+	
+	
+		<link class="lia-link-navigation hidden live-links" title="New board topics in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=forum"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All board posts in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_0" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=forum&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New knowledge base documents in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_1" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=tkb"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All knowledge base posts in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_2" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=tkb&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New blog articles in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_3" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=blog"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All blog posts in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_4" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=blog&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New idea exchange ideas in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_5" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=idea"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All idea exchange posts in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_6" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=idea&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New contest entry in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_7" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=contest"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All contest posts in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_8" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=contest&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New Questions in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_9" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=qanda"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All Questions, Answers, and Comments in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_10" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=qanda&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New Products" type="application/rss+xml" rel="alternate" id="link_11" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=review"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All Reviews and Comments" type="application/rss+xml" rel="alternate" id="link_12" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=review&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="rss.livelink.threads-in-node@place:occasion" type="application/rss+xml" rel="alternate" id="link_13" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=occasion"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="rss.livelink.posts-in-node@place:occasion" type="application/rss+xml" rel="alternate" id="link_14" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=occasion&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New media posts in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_15" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=media"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All media posts in SAP SuccessFactors User Groups" type="application/rss+xml" rel="alternate" id="link_16" href="/khhcw49343/rss/Category?category.id=successfactors-user-groups&amp;interaction.style=media&amp;feeds.replies=true"></link>
+	
+
+	
+	
+	    
+            	<link href="/skins/2011563/882ab2c2659ccd3b92bdc5ec4c97f9c9/sapglow.css" rel="stylesheet" type="text/css"/>
+            
+	
+
+	
+	
+	
+	
+	<link rel="shortcut icon" href="https://community.sap.com/html/@75A0878F21D09461247886DEA5121E3C/assets/favicon.ico" />
+
+  <script src="https://assets.adobedtm.com/ccc66c06b30b/2a75032df81e/launch-dfaf5c383cc4.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<link href="https://community.sap.com/html/@F29E03718864DE2E89353DC9E96C0CEF/assets/prism-kh.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://community.sap.com/html/@605F22A932C42855D7C890E7D99E1844/assets/prism-kh.js"></script>
+
+<link rel="stylesheet"
+      href="https://contextualnavigation.api.community.sap.com/static/1.45.3/cxs-designsystem/cxs-designsystem.css">
+<script type="module"
+        src='https://contextualnavigation.api.community.sap.com/static/1.45.3/cxs-designsystem/cxs-designsystem.esm.js'></script>
+
+
+<script language="javascript" type="text/javascript">
+<!--
+if("undefined"==typeof LITHIUM)var LITHIUM={};LITHIUM.Loader=function(){var h=[],a=[],b=!1,c=!1;return{onLoad:function(a){"function"===typeof a&&(!0===b?a():h.push(a))},onJsAttached:function(b){"function"===typeof b&&(!0===c?b():a.push(b))},runJsAttached:function(){c=!0;for(var b=0;b<a.length;b++)a[b]()},getOnLoadFunctions:function(){return h},setLoaded:function(){b=!0},isLoaded:function(){return b},isJsAttached:function(){return c}}}();"undefined"===typeof LITHIUM.Components&&(LITHIUM.Components={});LITHIUM.Components.render=function(h,a,b){LITHIUM.Loader.onLoad(function(){var c=LITHIUM.Components.renderUrl(h),k={type:"GET",dataType:"json"};LITHIUM.jQuery.extend(k,b||{});k.hasOwnProperty("url")||LITHIUM.jQuery.extend(k,{url:c});k.data=a;if("object"!==typeof k.data||null===k.data)k.data={};k.data.originalPageName=LITHIUM.Components.ORIGINAL_PAGE_NAME;k.data.originalPageContext=LITHIUM.Components.ORIGINAL_PAGE_CONTEXT;LITHIUM.jQuery.ajax(k)}.bind(this))};
+LITHIUM.Components.renderUrl=function(h,a){var b=LITHIUM.Components.RENDER_URL;LITHIUM.jQuery.each({"component-id":h},function(a,h){b=b.replace(new RegExp("#{"+a+"}","g"),h)});"undefined"!==typeof a&&(b+="?"+LITHIUM.jQuery.param(a));return b};
+LITHIUM.Components.renderInPlace=function(h,a,b,c){function k(b){var a=document.createElement("div"),c=(new Date).getTime()+Math.floor(1E7*Math.random()+1);a.setAttribute("id",c);b.parentNode.insertBefore(a,b);return c}if(c)var q=c;else!1===LITHIUM.Loader.isLoaded()&&(document.currentScript?q=k(document.currentScript):(c=document.querySelectorAll("script"),1<c.length&&(q=k(c[c.length-1]))));LITHIUM.Loader.onLoad(function(){var c=LITHIUM.jQuery,k=a||{},m=b||{},l=c("#"+q);c.extend(k,{renderedScripts:LITHIUM.RenderedScripts.toString(),
+"component-id":h});c.extend(m,{success:function(b){var a=b.content;LITHIUM.AngularSupport.isAngularEnabled()&&(a=LITHIUM.AngularSupport.compile(a));l.replaceWith(a);LITHIUM.AjaxSupport.ScriptsProcessor.handleScriptEvaluation(b);(b=LITHIUM.jQuery(a).attr("id"))&&LITHIUM.jQuery("#"+b).trigger("LITHIUM:ajaxSuccess:renderInPlace",{componentId:h})},error:function(a,c,h){0===a.readyState||0===a.status?l.html(""):l.html('\x3cspan class\x3d"lia-ajax-error-text"\x3e'+b.errorMessage+"\x3c/span\x3e");l.removeClass(LITHIUM.Css.BASE_LAZY_LOAD).removeClass("lia-fa-spin")}});
+l&&LITHIUM.Components.render(h,k,m)}.bind(this))};/*
+ modernizr v3.3.1
+ Build https://modernizr.com/download?-exiforientation-filereader-flash-setclasses-dontmin
+
+ Copyright (c)
+  Faruk Ates
+  Paul Irish
+  Alex Sexton
+  Ryan Seddon
+  Patrick Kettner
+  Stu Cox
+  Richard Herrera
+
+ MIT License
+ {
+      "name": "EXIF Orientation",
+      "property": "exiforientation",
+      "tags": ["image"],
+      "builderAliases": ["exif_orientation"],
+      "async": true,
+      "authors": ["Paul Sayre"],
+      "notes": [{
+        "name": "Article by Dave Perrett",
+        "href": "http://recursive-design.com/blog/2012/07/28/exif-orientation-handling-is-a-ghetto/"
+      },{
+        "name": "Article by Calvin Hass",
+        "href": "http://www.impulseadventure.com/photo/exif-orientation.html"
+      }]
+    }
+    ! {
+      "name": "Flash",
+      "property": "flash",
+      "tags": ["flash"],
+      "polyfills": ["shumway"]
+      }
+      ! {
+      "name": "File API",
+      "property": "filereader",
+      "caniuse": "fileapi",
+      "notes": [{
+        "name": "W3C Working Draft",
+        "href": "https://www.w3.org/TR/FileAPI/"
+      }],
+      "tags": ["file"],
+      "builderAliases": ["file_api"],
+      "knownBugs": ["Will fail in Safari 5 due to its lack of support for the standards defined FileReader object"]
+    }
+    !*/
+LITHIUM.LiModernizr=function(){(function(h,a,b){function c(e){var a=n.className,b=d._config.classPrefix||"";r&&(a=a.baseVal);d._config.enableJSClass&&(a=a.replace(new RegExp("(^|\\s)"+b+"no-js(\\s|$)"),"$1"+b+"js$2"));d._config.enableClasses&&(a+=" "+b+e.join(" "+b),r?n.className.baseVal=a:n.className=a)}function k(){return"function"!==typeof a.createElement?a.createElement(arguments[0]):r?a.createElementNS.call(a,"http://www.w3.org/2000/svg",arguments[0]):a.createElement.apply(a,arguments)}function q(){var e=
+a.body;e||(e=k(r?"svg":"body"),e.fake=!0);return e}function p(a,b){if("object"==typeof a)for(var e in a)u(a,e)&&p(e,a[e]);else{a=a.toLowerCase();e=a.split(".");var f=d[e[0]];2==e.length&&(f=f[e[1]]);if("undefined"!=typeof f)return d;b="function"==typeof b?b():b;1==e.length?d[e[0]]=b:(!d[e[0]]||d[e[0]]instanceof Boolean||(d[e[0]]=new Boolean(d[e[0]])),d[e[0]][e[1]]=b);c([(b&&0!=b?"":"no-")+e.join("-")]);d._trigger(a,b)}return d}var t=[],m=[],l={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,
+enableJSClass:!0,usePrefixes:!0},_q:[],on:function(a,b){var e=this;setTimeout(function(){b(e[a])},0)},addTest:function(a,b,c){m.push({name:a,fn:b,options:c})},addAsyncTest:function(a){m.push({name:null,fn:a})}},d=function(){};d.prototype=l;d=new d;var n=a.documentElement,r="svg"===n.nodeName.toLowerCase(),u;(function(){var a={}.hasOwnProperty;u="undefined"!==typeof a&&"undefined"!==typeof a.call?function(b,e){return a.call(b,e)}:function(a,b){return b in a&&"undefined"===typeof a.constructor.prototype[b]}})();
+l._l={};l.on=function(a,b){this._l[a]||(this._l[a]=[]);this._l[a].push(b);d.hasOwnProperty(a)&&setTimeout(function(){d._trigger(a,d[a])},0)};l._trigger=function(a,b){if(this._l[a]){var e=this._l[a];setTimeout(function(){var a;for(a=0;a<e.length;a++){var c=e[a];c(b)}},0);delete this._l[a]}};d._q.push(function(){l.addTest=p});d.addAsyncTest(function(){LITHIUM.Loader.onLoad(function(){var b=a.createElement("img");b.onerror=function(){p("exiforientation",!1,{aliases:["exif-orientation"]});a.body.removeChild(b)};
+b.onload=function(){p("exiforientation",2!==b.width,{aliases:["exif-orientation"]});a.body.removeChild(b)};b.src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAASUkqAAgAAAABABIBAwABAAAABgASAAAAAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAABAAIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigD/2Q\x3d\x3d";
+a.body&&(b.setAttribute("style","position: absolute; left: -9999;"),a.body.appendChild(b))})});d.addAsyncTest(function(){var b=function(a){n.contains(a)||n.appendChild(a)},c=function(a,b){var c=!!a;c&&(c=new Boolean(c),c.blocked="blocked"===a);p("flash",function(){return c});if(b&&g.contains(b)){for(;b.parentNode!==g;)b=b.parentNode;g.removeChild(b)}};try{var d="ActiveXObject"in h&&"Pan"in new h.ActiveXObject("ShockwaveFlash.ShockwaveFlash")}catch(v){}if(!("plugins"in navigator&&"Shockwave Flash"in
+navigator.plugins||d)||r)c(!1);else{var f=k("embed"),g=q(),l;f.type="application/x-shockwave-flash";g.appendChild(f);if("Pan"in f||d){var m=function(){b(g);if(!n.contains(g))return g=a.body||g,f=k("embed"),f.type="application/x-shockwave-flash",g.appendChild(f),setTimeout(m,1E3);n.contains(f)?(l=f.style.cssText,""!==l?c("blocked",f):c(!0,f)):c("blocked");g.fake&&g.parentNode&&g.parentNode.removeChild(g)};setTimeout(m,10)}else b(g),c("blocked",f),g.fake&&g.parentNode&&g.parentNode.removeChild(g)}});
+d.addTest("filereader",!!(h.File&&h.FileList&&h.FileReader));(function(){var a,b;for(b in m)if(m.hasOwnProperty(b)){var c=[];var f=m[b];if(f.name&&(c.push(f.name.toLowerCase()),f.options&&f.options.aliases&&f.options.aliases.length))for(a=0;a<f.options.aliases.length;a++)c.push(f.options.aliases[a].toLowerCase());f="function"===typeof f.fn?f.fn():f.fn;for(a=0;a<c.length;a++){var g=c[a];g=g.split(".");1===g.length?d[g[0]]=f:(!d[g[0]]||d[g[0]]instanceof Boolean||(d[g[0]]=new Boolean(d[g[0]])),d[g[0]][g[1]]=
+f);t.push((f?"":"no-")+g.join("-"))}}})();c(t);delete l.addTest;delete l.addAsyncTest;for(b=0;b<d._q.length;b++)d._q[b]();LITHIUM.Modernizr=d})(window,document)}();(function(){LITHIUM.Globals=function(){var h={};return{preventGlobals:function(a){for(var b=0;b<a.length;b++){var c=a[b];c in window&&void 0!==window[c]&&(h[c]=window[c],window[c]=void 0)}},restoreGlobals:function(a){for(var b=0;b<a.length;b++){var c=a[b];h.hasOwnProperty(c)&&(window[c]=h[c])}}}}()})();(function(h){Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector);Element.prototype.closest||(Element.prototype.closest=function(a){var b=this;do{if(b.matches(a))return b;b=b.parentElement||b.parentNode}while(null!==b&&1===b.nodeType);return null})})(LITHIUM.jQuery);LITHIUM.PrefetchData = {"Components":{"categories.widget.add-category-user-email":{"instances":[{"policyCheck":{"result":{"data":{"policy_check":{"checks":{"size":1,"list_item_type":"policy_check_item","items":[{"reason":"","allowed":false,"id":"successfactors-user-groups","type":"policy_check_item"}]},"name":"subscription.action.entity.add-entity-user-email-subscription.allow","type":"policy_check"}},"successful":true}},"nodes":{"call":{"query":{"nodes":{"limit":1000,"fields":["id","title","node_type","user_context","user_context.is_subscribed","user_context.can_subscribe","parent","conversation_style"],"constraints":[{"ancestors.id":"category:successfactors-user-groups"}],"sorts":["depth asc","position asc"]}}}},"topCategory":{"result":{"data":{"size":1,"list_item_type":"category","type":"categories","items":[{"id":"successfactors-user-groups","type":"category","title":"SAP SuccessFactors User Groups","user_context":{"is_subscribed":false,"can_subscribe":false,"type":"node_user_context"}}]},"successful":true}}}]}},"commonResults":{}};
+;(function(){var en = function(n, ord
+) {
+  var s = String(n).split('.'), v0 = !s[1], t0 = Number(s[0]) == n,
+      n10 = t0 && s[0].slice(-1), n100 = t0 && s[0].slice(-2);
+  if (ord) return (n10 == 1 && n100 != 11) ? 'one'
+      : (n10 == 2 && n100 != 12) ? 'two'
+      : (n10 == 3 && n100 != 13) ? 'few'
+      : 'other';
+  return (n == 1 && v0) ? 'one' : 'other';
+};
+var number = function (value, name, offset) {
+  if (!offset) return value;
+  if (isNaN(value)) throw new Error("Can't apply offset:" + offset + ' to argument `' + name + '` with non-numerical value ' + JSON.stringify(value) + '.');
+  return value - offset;
+};
+var plural = function (value, offset, lcfunc, data, isOrdinal) {
+  if ({}.hasOwnProperty.call(data, value)) return data[value];
+  if (offset) value -= offset;
+  var key = lcfunc(value, isOrdinal);
+  return key in data ? data[key] : data.other;
+};
+
+LITHIUM.TextData = {
+  li: {
+    subscriptions: {
+      CategorySubscriptionEditor: {
+        all: function(d) { return "All"; },
+        cancel: function(d) { return "Cancel"; },
+        titleSubscribe: function(d) { return d.topCategoryTitle + ": Subscribe"; },
+        saveError: function(d) { return "There was an error saving your changes."; },
+        boardCount: function(d) { return d.boardSubCount + "/" + plural(d.boardTotalCount, 0, en, { one: "1 board", other: number(d.boardTotalCount, "boardTotalCount") + " boards" }) + " <i class=\"lia-fa lia-fa-pencil\" aria-hidden=\"true\"></i>"; },
+        subscribe: function(d) { return "Subscribe"; },
+        loggedOut: function(d) { return "Your session has expired."; },
+        save: function(d) { return "Save"; },
+        none: function(d) { return "Unsubscribe"; },
+        unsubscribeResult: {
+          success: function(d) { return "Success! You have unsubscribed from this category."; }
+        },
+        title: function(d) { return d.topCategoryTitle + ": Edit Category Subscription"; },
+        noBoards: function(d) { return "Do not send any notifications for the " + plural(d.boardTotalCount, 0, en, { one: "board", other: "boards" }) + " in this category"; },
+        selectedBoards: function(d) { return "Get notifications for only the selected " + plural(d.boardTotalCount, 0, en, { one: "board", other: "boards" }); },
+        subscribeResult: {
+          success: function(d) { return "Success! You have subscribed to this category (" + d.boardSubCount + " of " + plural(d.boardTotalCount, 0, en, { one: "1 board", other: number(d.boardTotalCount, "boardTotalCount") + " boards" }) + ")."; }
+        },
+        allBoards: function(d) { return "Get notifications for " + plural(d.boardTotalCount, 0, en, { one: "the board", other: "all " + number(d.boardTotalCount, "boardTotalCount") + " boards" }) + " in this category"; },
+        boardsInCategoryCount: function(d) { return d.categoryTitle + " (" + plural(d.boardCount, 0, en, { one: "1 board", other: number(d.boardCount, "boardCount") + " boards" }) + ")"; },
+        category: function(d) { return "Category"; },
+        editSubscription: function(d) { return "Edit Subscription"; },
+        partial: function(d) { return "Partial"; }
+      }
+    },
+    common: {
+      Feedback: {
+        closeAriaLabel: function(d) { return "Close feedback banner"; }
+      }
+    }
+  }
+};LITHIUM.Limuirs = LITHIUM.Limuirs || {}; 
+        LITHIUM.Limuirs.logLevel = "error"; 
+        LITHIUM.Limuirs.getChunkURL = function(){ return "https:\u002F\u002Flimuirs-assets.lithium.com\u002Fassets\u002F"}; 
+        LITHIUM.Limuirs.preloadPaths = [];;LITHIUM.release = "25.4"})();
+LITHIUM.DEBUG = false;
+LITHIUM.CommunityJsonObject = {
+  "Validation" : {
+    "image.description" : {
+      "min" : 0,
+      "max" : 1000,
+      "isoneof" : [ ],
+      "type" : "string"
+    },
+    "tkb.toc_maximum_heading_level" : {
+      "min" : 1,
+      "max" : 6,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "tkb.toc_heading_list_style" : {
+      "min" : 0,
+      "max" : 50,
+      "isoneof" : [
+        "disc",
+        "circle",
+        "square",
+        "none"
+      ],
+      "type" : "string"
+    },
+    "blog.toc_maximum_heading_level" : {
+      "min" : 1,
+      "max" : 6,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "tkb.toc_heading_indent" : {
+      "min" : 5,
+      "max" : 50,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "blog.toc_heading_indent" : {
+      "min" : 5,
+      "max" : 50,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "blog.toc_heading_list_style" : {
+      "min" : 0,
+      "max" : 50,
+      "isoneof" : [
+        "disc",
+        "circle",
+        "square",
+        "none"
+      ],
+      "type" : "string"
+    }
+  },
+  "User" : {
+    "settings" : {
+      "imageupload.legal_file_extensions" : "*.jpg;*.JPG;*.jpeg;*.JPEG;*.gif;*.GIF;*.png;*.PNG;*.webm;*.svg;*.SVG",
+      "config.enable_avatar" : true,
+      "integratedprofile.show_klout_score" : true,
+      "layout.sort_view_by_last_post_date" : true,
+      "layout.friendly_dates_enabled" : true,
+      "profileplus.allow.anonymous.scorebox" : false,
+      "tkb.message_sort_default" : "topicPublishDate",
+      "layout.format_pattern_date" : "yyyy MMM dd",
+      "config.require_search_before_post" : "off",
+      "isUserLinked" : false,
+      "integratedprofile.cta_add_topics_dismissal_timestamp" : -1,
+      "layout.message_body_image_max_size" : 1000,
+      "profileplus.everyone" : false,
+      "integratedprofile.cta_connect_wide_dismissal_timestamp" : -1,
+      "blog.toc_maximum_heading_level" : "",
+      "integratedprofile.hide_social_networks" : false,
+      "blog.toc_heading_indent" : "",
+      "contest.entries_per_page_num" : 20,
+      "layout.messages_per_page_linear" : 50,
+      "integratedprofile.cta_manage_topics_dismissal_timestamp" : -1,
+      "profile.shared_profile_test_group" : false,
+      "integratedprofile.cta_personalized_feed_dismissal_timestamp" : -1,
+      "integratedprofile.curated_feed_size" : 10,
+      "contest.one_kudo_per_contest" : false,
+      "integratedprofile.enable_social_networks" : false,
+      "integratedprofile.my_interests_dismissal_timestamp" : -1,
+      "profile.language" : "en",
+      "layout.friendly_dates_max_age_days" : 31,
+      "layout.threading_order" : "thread_ascending",
+      "blog.toc_heading_list_style" : "disc",
+      "useRecService" : false,
+      "layout.module_welcome" : "<b>Welcome to SAP Groups!<\/b>\r\n<p>SAP Community Groups enable professionals across the globe to come together to share, learn and grow.<\/p>",
+      "imageupload.max_uploaded_images_per_upload" : 100,
+      "imageupload.max_uploaded_images_per_user" : 2000,
+      "integratedprofile.connect_mode" : "",
+      "tkb.toc_maximum_heading_level" : "",
+      "tkb.toc_heading_list_style" : "disc",
+      "sharedprofile.show_hovercard_score" : true,
+      "config.search_before_post_scope" : "community",
+      "tkb.toc_heading_indent" : "",
+      "p13n.cta.recommendations_feed_dismissal_timestamp" : -1,
+      "imageupload.max_file_size" : 9216,
+      "layout.show_batch_checkboxes" : false,
+      "integratedprofile.cta_connect_slim_dismissal_timestamp" : -1
+    },
+    "isAnonymous" : true,
+    "policies" : {
+      "image-upload.process-and-remove-exif-metadata" : false
+    },
+    "registered" : false,
+    "emailRef" : "",
+    "id" : -1,
+    "login" : "Former Member"
+  },
+  "Server" : {
+    "communityPrefix" : "/khhcw49343",
+    "nodeChangeTimeStamp" : 1750335502828,
+    "tapestryPrefix" : "/t5",
+    "deviceMode" : "DESKTOP",
+    "responsiveDeviceMode" : "DESKTOP",
+    "membershipChangeTimeStamp" : "0",
+    "version" : "25.4",
+    "branch" : "25.4-release",
+    "showTextKeys" : false
+  },
+  "Config" : {
+    "phase" : "prod",
+    "integratedprofile.cta.reprompt.delay" : 30,
+    "profileplus.tracking" : {
+      "profileplus.tracking.enable" : false,
+      "profileplus.tracking.click.enable" : false,
+      "profileplus.tracking.impression.enable" : false
+    },
+    "app.revision" : "2506111522-s49bf25965b-b11",
+    "navigation.manager.community.structure.limit" : "1000"
+  },
+  "Activity" : {
+    "Results" : [ ]
+  },
+  "NodeContainer" : {
+    "viewHref" : "https://community.sap.com/t5/sap-successfactors-user-groups/ct-p/successfactors-user-groups",
+    "description" : "Connect with SAP SuccessFactors users and experts from around the world to share knowledge, learn about new features, and solve problems.",
+    "id" : "successfactors-user-groups",
+    "shortTitle" : "SAP SuccessFactors User Groups",
+    "title" : "SAP SuccessFactors User Groups",
+    "nodeType" : "category"
+  },
+  "Page" : {
+    "skins" : [
+      "sapglow",
+      "sap2023",
+      "theme_hermes",
+      "responsive_peak"
+    ],
+    "authUrls" : {
+      "loginUrl" : "/plugins/common/feature/oidcss/sso_login_redirect/providerid/sap_ids_baseline_conditional_prod?referer=https%3A%2F%2Fcommunity.sap.com%2Ft5%2Fsap-successfactors-user-groups%2Fct-p%2Fsuccessfactors-user-groups",
+      "loginUrlNotRegistered" : "/plugins/common/feature/oidcss/sso_login_redirect/providerid/sap_ids_baseline_conditional_prod?redirectreason=notregistered&referer=https%3A%2F%2Fcommunity.sap.com%2Ft5%2Fsap-successfactors-user-groups%2Fct-p%2Fsuccessfactors-user-groups",
+      "loginUrlNotRegisteredDestTpl" : "/plugins/common/feature/oidcss/sso_login_redirect/providerid/sap_ids_baseline_conditional_prod?redirectreason=notregistered&referer=%7B%7BdestUrl%7D%7D"
+    },
+    "name" : "CategoryPage",
+    "rtl" : false,
+    "object" : {
+      "viewHref" : "/t5/sap-successfactors-user-groups/ct-p/successfactors-user-groups",
+      "id" : "successfactors-user-groups",
+      "page" : "CategoryPage",
+      "type" : "Category"
+    }
+  },
+  "WebTracking" : {
+    "Activities" : { },
+    "path" : "Community:SAP Community/Category:Groups/Category:SAP SuccessFactors User Groups"
+  },
+  "Feedback" : {
+    "targeted" : { }
+  },
+  "Seo" : {
+    "markerEscaping" : {
+      "pathElement" : {
+        "prefix" : "@",
+        "match" : "^[0-9][0-9]$"
+      },
+      "enabled" : false
+    }
+  },
+  "TopLevelNode" : {
+    "viewHref" : "https://community.sap.com/",
+    "description" : "Official SAP Community. Search questions and answers, read the latest blog posts and curated content, connect with experts, and improve your SAP skills.",
+    "id" : "khhcw49343",
+    "shortTitle" : "SAP Community",
+    "title" : "SAP Community",
+    "nodeType" : "Community"
+  },
+  "Community" : {
+    "viewHref" : "https://community.sap.com/",
+    "integratedprofile.lang_code" : "en",
+    "integratedprofile.country_code" : "US",
+    "id" : "khhcw49343",
+    "shortTitle" : "SAP Community",
+    "title" : "SAP Community"
+  },
+  "CoreNode" : {
+    "viewHref" : "https://community.sap.com/t5/sap-successfactors-user-groups/ct-p/successfactors-user-groups",
+    "settings" : { },
+    "description" : "Connect with SAP SuccessFactors users and experts from around the world to share knowledge, learn about new features, and solve problems.",
+    "id" : "successfactors-user-groups",
+    "shortTitle" : "SAP SuccessFactors User Groups",
+    "title" : "SAP SuccessFactors User Groups",
+    "nodeType" : "category",
+    "ancestors" : [
+      {
+        "viewHref" : "https://community.sap.com/t5/groups/ct-p/groups",
+        "description" : "Join local and global SAP Community groups to engage on focused topics, find events, explore career and learning opportunities, and chat in the Coffee Corner.",
+        "id" : "groups",
+        "shortTitle" : "Groups",
+        "title" : "Groups",
+        "nodeType" : "category"
+      },
+      {
+        "viewHref" : "https://community.sap.com/",
+        "description" : "Official SAP Community. Search questions and answers, read the latest blog posts and curated content, connect with experts, and improve your SAP skills.",
+        "id" : "khhcw49343",
+        "shortTitle" : "SAP Community",
+        "title" : "SAP Community",
+        "nodeType" : "Community"
+      }
+    ]
+  }
+};
+LITHIUM.Components.RENDER_URL = "/t5/util/componentrenderpage/component-id/#{component-id}?render_behavior=raw";
+LITHIUM.Components.ORIGINAL_PAGE_NAME = 'community/CategoryPage';
+LITHIUM.Components.ORIGINAL_PAGE_ID = 'CategoryPage';
+LITHIUM.Components.ORIGINAL_PAGE_CONTEXT = 'BU3CuMrP6D0CwLJn04sp3pjAE6AHehzLJ0WSd2mT2o0R5jMJKQIdLjRLed8rRZrusISLzsI7eplJuGr8u3pCoRlWc_yJ0PBQvFcoTkW67UK8ajxOMmjeVBFk-QaWMcCJp3cIJJ-oogLdqw0bWEz2JGc8C_N0i_Qx4YjvndkybqPzzaaWISkqc-qtJ2e3T_0PU54WcKXBD-X_Thou4awFrH4M-CqDuI2cN_zCe-uvwrkcLZnsndaNEo0VY4zzQv2znXl6rKl_dQFvehJC0r7RIOJ02gfXopNrTBCPNqXN_qmHa_HXX7yC3O-36I8XZnlgibXEaansMsajo70fMmV69oCPtXIxEBO6aVUifD0uUas.';
+LITHIUM.Css = {
+  "BASE_DEFERRED_IMAGE" : "lia-deferred-image",
+  "BASE_BUTTON" : "lia-button",
+  "BASE_SPOILER_CONTAINER" : "lia-spoiler-container",
+  "BASE_TABS_INACTIVE" : "lia-tabs-inactive",
+  "BASE_TABS_ACTIVE" : "lia-tabs-active",
+  "BASE_AJAX_REMOVE_HIGHLIGHT" : "lia-ajax-remove-highlight",
+  "BASE_FEEDBACK_SCROLL_TO" : "lia-feedback-scroll-to",
+  "BASE_FORM_FIELD_VALIDATING" : "lia-form-field-validating",
+  "BASE_FORM_ERROR_TEXT" : "lia-form-error-text",
+  "BASE_FEEDBACK_INLINE_ALERT" : "lia-panel-feedback-inline-alert",
+  "BASE_BUTTON_OVERLAY" : "lia-button-overlay",
+  "BASE_TABS_STANDARD" : "lia-tabs-standard",
+  "BASE_AJAX_INDETERMINATE_LOADER_BAR" : "lia-ajax-indeterminate-loader-bar",
+  "BASE_AJAX_SUCCESS_HIGHLIGHT" : "lia-ajax-success-highlight",
+  "BASE_CONTENT" : "lia-content",
+  "BASE_JS_HIDDEN" : "lia-js-hidden",
+  "BASE_AJAX_LOADER_CONTENT_OVERLAY" : "lia-ajax-loader-content-overlay",
+  "BASE_FORM_FIELD_SUCCESS" : "lia-form-field-success",
+  "BASE_FORM_WARNING_TEXT" : "lia-form-warning-text",
+  "BASE_FORM_FIELDSET_CONTENT_WRAPPER" : "lia-form-fieldset-content-wrapper",
+  "BASE_AJAX_LOADER_OVERLAY_TYPE" : "lia-ajax-overlay-loader",
+  "BASE_FORM_FIELD_ERROR" : "lia-form-field-error",
+  "BASE_SPOILER_CONTENT" : "lia-spoiler-content",
+  "BASE_FORM_SUBMITTING" : "lia-form-submitting",
+  "BASE_EFFECT_HIGHLIGHT_START" : "lia-effect-highlight-start",
+  "BASE_FORM_FIELD_ERROR_NO_FOCUS" : "lia-form-field-error-no-focus",
+  "BASE_EFFECT_HIGHLIGHT_END" : "lia-effect-highlight-end",
+  "BASE_SPOILER_LINK" : "lia-spoiler-link",
+  "BASE_DISABLED" : "lia-link-disabled",
+  "FACEBOOK_LOGOUT" : "lia-component-users-action-logout",
+  "FACEBOOK_SWITCH_USER" : "lia-component-admin-action-switch-user",
+  "BASE_FORM_FIELD_WARNING" : "lia-form-field-warning",
+  "BASE_AJAX_LOADER_FEEDBACK" : "lia-ajax-loader-feedback",
+  "BASE_AJAX_LOADER_OVERLAY" : "lia-ajax-loader-overlay",
+  "BASE_LAZY_LOAD" : "lia-lazy-load"
+};
+LITHIUM.noConflict = true;
+LITHIUM.useCheckOnline = false;
+LITHIUM.RenderedScripts = [
+  "ActiveCast3.js",
+  "jquery.ui.widget.js",
+  "jquery.appear-1.1.1.js",
+  "Sandbox.js",
+  "jquery.ui.resizable.js",
+  "ResizeSensor.js",
+  "ElementQueries.js",
+  "jquery.iframe-transport.js",
+  "SearchAutoCompleteToggle.js",
+  "jquery.effects.core.js",
+  "DeferredImages.js",
+  "jquery.hoverIntent-r6.js",
+  "SpoilerToggle.js",
+  "NoConflict.js",
+  "ForceLithiumJQuery.js",
+  "Throttle.js",
+  "DropDownMenuVisibilityHandler.js",
+  "jquery.fileupload.js",
+  "DropDownMenu.js",
+  "jquery.ui.position.js",
+  "Lithium.js",
+  "json2.js",
+  "LiModernizr.js",
+  "Link.js",
+  "limuirs-25_3-vendors~main.5ef86aa8c72fe4cbb8d6.js",
+  "jquery.iframe-shim-1.0.js",
+  "Auth.js",
+  "jquery.tmpl-1.1.1.js",
+  "Text.js",
+  "jquery.ui.dialog.js",
+  "jquery.lithium-selector-extensions.js",
+  "jquery.delayToggle-1.0.js",
+  "jquery.js",
+  "Components.js",
+  "Cache.js",
+  "Tooltip.js",
+  "SearchForm.js",
+  "ElementMethods.js",
+  "limuirs-25_3-main.9dd8521250eaa90c5636.js",
+  "jquery.position-toggle-1.0.js",
+  "jquery.blockui.js",
+  "HelpIcon.js",
+  "jquery.scrollTo.js",
+  "jquery.json-2.6.0.js",
+  "Forms.js",
+  "Loader.js",
+  "jquery.viewport-1.0.js",
+  "jquery.ui.mouse.js",
+  "Namespace.js",
+  "AjaxFeedback.js",
+  "Globals.js",
+  "jquery.ajax-cache-response-1.0.js",
+  "AutoComplete.js",
+  "jquery.placeholder-2.0.7.js",
+  "jquery.ui.draggable.js",
+  "jquery.clone-position-1.0.js",
+  "Events.js",
+  "Video.js",
+  "InformationBox.js",
+  "jquery.css-data-1.0.js",
+  "jquery.tools.tooltip-1.2.6.js",
+  "DataHandler.js",
+  "prism.js",
+  "Placeholder.js",
+  "AjaxSupport.js",
+  "jquery.ui.core.js",
+  "jquery.autocomplete.js",
+  "jquery.effects.slide.js",
+  "jquery.function-utils-1.0.js",
+  "PartialRenderProxy.js",
+  "PolyfillsAll.js"
+];(function(){LITHIUM.AngularSupport=function(){function g(a,c){a=a||{};for(var b in c)"[object object]"===Object.prototype.toString.call(c[b])?a[b]=g(a[b],c[b]):a[b]=c[b];return a}var d,f,b={coreModule:"li.community",coreModuleDeps:[],noConflict:!0,bootstrapElementSelector:".lia-page .min-width .lia-content",bootstrapApp:!0,debugEnabled:!1,useCsp:!0,useNg2:!1},k=function(){var a;return function(b){a||(a=document.createElement("a"));a.href=b;return a.href}}();LITHIUM.Angular={};return{preventGlobals:LITHIUM.Globals.preventGlobals,
+restoreGlobals:LITHIUM.Globals.restoreGlobals,init:function(){var a=[],c=document.querySelector(b.bootstrapElementSelector);a.push(b.coreModule);b.customerModules&&0<b.customerModules.length&&a.concat(b.customerModules);b.useCsp&&(c.setAttribute("ng-csp","no-unsafe-eval"),c.setAttribute("li-common-non-bindable",""));d=LITHIUM.angular.module(b.coreModule,b.coreModuleDeps);d.config(["$locationProvider","$provide","$injector","$logProvider","$compileProvider","$qProvider","$anchorScrollProvider",function(a,
+c,e,d,f,g,h){h.disableAutoScrolling();h=document.createElement("base");h.setAttribute("href",k(location));document.getElementsByTagName("head")[0].appendChild(h);window.history&&window.history.pushState&&a.html5Mode({enabled:!0,requireBase:!0,rewriteLinks:!1}).hashPrefix("!");d.debugEnabled(b.debugEnabled);f.debugInfoEnabled(b.debugEnabled);e.has("$uibModal")&&c.decorator("$uibModal",["$delegate",function(a){var b=a.open;a.open=function(a){a.backdropClass=(a.backdropClass?a.backdropClass+" ":"")+
+"lia-modal-backdrop";a.windowClass=(a.windowClass?a.windowClass+" ":"")+"lia-modal-window";return b(a)};return a}]);e.has("uibDropdownConfig")&&(e.get("uibDropdownConfig").openClass="lia-dropdown-open");e.has("uibButtonConfig")&&(e.get("uibButtonConfig").activeClass="lia-link-active");g.errorOnUnhandledRejections(!1)}]);if(b.bootstrapApp)f=b.useNg2?LITHIUM.Angular.upgradeAdapter.bootstrap(c,a):LITHIUM.angular.bootstrap(c,a);else LITHIUM.Loader.onLoad(function(){f=LITHIUM.angular.element(c).injector()});
+LITHIUM.Angular.app=d},compile:function(a){void 0===a&&(a=document.querySelector(b.bootstrapElementSelector));var c;if(void 0===a||""===a)return a;f.invoke(["$rootScope","$compile",function(b,d){try{var e=LITHIUM.angular.element(a)}catch(l){e=LITHIUM.angular.element("\x3cli:safe-wrapper\x3e"+a+"\x3c/li:safe-wrapper\x3e")}e.attr("li-common-non-bindable","");c=d(e)(b);b.$digest()}]);return c},isAngularEnabled:function(){return void 0!==d},updateLocationUrl:function(a,b){f.invoke(["$location","$rootScope",
+"$browser",function(c,d,e){a=""===a?"?":a;c.url(a,b);d.$apply()}])},setOptions:function(a){return g(b,a)},getOptions:function(){return b},initGlobal:function(a){LITHIUM.angular=a;b.useNg2&&(LITHIUM.Angular.upgradeAdapter=new ng.upgrade.UpgradeAdapter)}}}()})();(function(){LITHIUM.ScriptLoader=function(){function d(a){a in e||(e[a]={loaded:!1});return e[a]}function f(){g.filter(function(a){return!a.loaded}).forEach(function(a){var b=!0;a.labels.forEach(function(a){!1===d(a).loaded&&(b=!1)});b&&(a.loaded=!0,a.callback())})}var e={},g=[];return{load:function(a){a.forEach(function(a){var b=document.getElementsByTagName("head")[0]||document.documentElement,c=document.createElement("script");c.src=a.url;c.async=!1;a.crossorigin&&a.integrity&&(c.setAttribute("crossorigin",
+a.crossorigin),c.setAttribute("integrity",a.integrity));b.insertBefore(c,b.firstChild);d(a.label)})},setLoaded:function(a){d(a).loaded=!0;f()},ready:function(a,b){g.push({labels:a,callback:b,loaded:!1});f()}}}()})();LITHIUM.ScriptLoader.load([{"name":"lia-scripts-common-min.js","label":"common","url":"/t5/scripts/4AC59D47FB72DFC04A7151614B061671/lia-scripts-common-min.js"},{"name":"lia-scripts-body-min.js","label":"body","url":"/t5/scripts/8C44092B55DDE1D6DA7945D667B78C19/lia-scripts-body-min.js"},{"name":"limuirs-25_3-vendors~main.5ef86aa8c72fe4cbb8d6.js","label":"external","url":"https://limuirs-assets.lithium.com/assets/limuirs-25_3-vendors~main.5ef86aa8c72fe4cbb8d6.js"},{"name":"limuirs-25_3-main.9dd8521250eaa90c5636.js","label":"external","url":"https://limuirs-assets.lithium.com/assets/limuirs-25_3-main.9dd8521250eaa90c5636.js"}]);
+// -->
+</script></head>
+	<body class="lia-user-status-anonymous CategoryPage lia-body lia-a11y" id="lia-body">
+	
+	
+	<div id="A51-180-6" class="ServiceNodeInfoHeader">
+</div>
+	
+	
+	
+	
+
+	<div class="lia-page">
+		<center>
+			
+				<div style="height: 60px; background: #F5F6F7">
+    <ds-header identifier="community"
+       mode="light"
+       locale="en-us"
+       s3-bucket="https://contextualnavigation.api.community.sap.com">
+    </ds-header>
+</div>
+
+<script type="module">
+    // Listen to header custom events
+    document.addEventListener('login', () => {
+        window.location.href = "/plugins/common/feature/oidcss/sso_login_redirect/providerid/sap_ids_baseline_conditional_prod?referer=https%3A%2F%2Fcommunity.sap.com%2Ft5%2Fsap-successfactors-user-groups%2Fct-p%2Fsuccessfactors-user-groups";
+    });
+</script>    <style>
+        .lia-quilt-row-header .lia-quilt-layout-custom-community-header .lia-quilt-row-header-hero { background-color: #D1EFFF; }
+        .lia-quilt-row-header-hero .lia-node-header-title,
+        .lia-quilt-row-header-hero .lia-node-header-description {
+            color: #000;
+        }
+    </style>
+
+
+					
+	
+	<div class="MinimumWidthContainer">
+		<div class="min-width-wrapper">
+			<div class="min-width">		
+				
+						<div class="lia-content">
+                            
+							
+							
+							
+		
+	<div class="lia-quilt lia-quilt-category-page-announcement lia-quilt-layout-custom-landing-page-two-column lia-top-quilt">
+	<div class="lia-quilt-row lia-quilt-row-header">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-common-header">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		
+			<div class="lia-quilt lia-quilt-header lia-quilt-layout-custom-community-header lia-component-quilt-header">
+	<div class="lia-quilt-row lia-quilt-row-header-top">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-header-top-content lia-mark-empty">
+			
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-header-navigation">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-header-navigation-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		<div class="custom-community-header-left">
+			
+		
+			<div aria-label="breadcrumbs" role="navigation" class="BreadCrumb crumb-line lia-breadcrumb lia-component-common-widget-breadcrumb">
+	<ul role="list" id="list" class="lia-list-standard-inline">
+	
+		
+			<li class="lia-breadcrumb-node crumb">
+				<a class="lia-link-navigation crumb-community lia-breadcrumb-community lia-breadcrumb-forum" id="link_17" href="/">SAP Community</a>
+			</li>
+			
+				<li aria-hidden="true" class="lia-breadcrumb-seperator crumb-community lia-breadcrumb-community lia-breadcrumb-forum">
+				  
+           			 <span>
+           				 <span class="lia-img-icon-list-separator-breadcrumb lia-fa-icon lia-fa-list lia-fa-separator lia-fa-breadcrumb lia-fa" alt="" aria-label="" role="img" id="display"></span>
+  					</span>
+          		  
+       			 
+				</li>
+			
+		
+			<li class="lia-breadcrumb-node crumb">
+				<a class="lia-link-navigation crumb-category lia-breadcrumb-category lia-breadcrumb-forum" id="link_18" href="https://community.sap.com/t5/groups/ct-p/groups">Groups</a>
+			</li>
+			
+				<li aria-hidden="true" class="lia-breadcrumb-seperator crumb-category lia-breadcrumb-category lia-breadcrumb-forum">
+				  
+           			 <span>
+           				 <span class="lia-img-icon-list-separator-breadcrumb lia-fa-icon lia-fa-list lia-fa-separator lia-fa-breadcrumb lia-fa" alt="" aria-label="" role="img" id="display_0"></span>
+  					</span>
+          		  
+       			 
+				</li>
+			
+		
+			<li class="lia-breadcrumb-node crumb final-crumb">
+				<span class="lia-link-navigation crumb-category lia-breadcrumb-category lia-breadcrumb-forum lia-link-disabled" aria-disabled="true" id="link_19">SAP SuccessFactors User Groups</span>
+			</li>
+			
+		
+	
+</ul>
+</div>
+		
+	
+		</div>
+	
+	
+
+	
+		<div class="custom-community-header-right lia-mark-empty">
+			
+		
+			
+		
+	
+		</div>
+	
+	
+</div>
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-header-hero">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-header-hero-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		<div class="header-hero-wrapper lia-mark-empty">
+			
+		
+			
+		
+	
+		</div>
+	
+	
+
+	
+		
+			
+		
+	
+	
+
+	
+		<div class="custom-hero-flex">
+			
+		
+			
+<div class="hero-content custom-hero-with-carousel custom-hide-avatar-true">
+    <div class="header-hero-wrapper header-hero-wrapper-custom-node-information">
+
+<div class='lia-node-header-info lia-component-common-widget-node-information' id='nodeInformation_639c005108fa43'>
+    <div class='lia-node-header-title'>
+    	SAP SuccessFactors User Groups
+    </div>
+    <div class='lia-node-header-description'>
+    	Connect with SAP SuccessFactors users and experts from around the world to share knowledge, learn about new features, and solve problems.
+    </div>
+</div><div id="lia-searchformV32_639c00510b1074" class="SearchForm lia-search-form-wrapper lia-mode-default lia-component-common-widget-search-form">
+	
+
+	
+		<div class="lia-inline-ajax-feedback">
+			<div class="AjaxFeedback" id="ajaxfeedback_639c00510b1074"></div>
+			
+	
+
+	
+
+		</div>
+
+	
+
+	
+		<div id="searchautocompletetoggle_639c00510b1074">	
+	
+		
+
+	
+		<div class="lia-inline-ajax-feedback">
+			<div class="AjaxFeedback" id="ajaxfeedback_639c00510b1074_0"></div>
+			
+	
+
+	
+
+		</div>
+
+	
+
+	
+			
+            <form enctype="multipart/form-data" class="lia-form lia-form-inline SearchForm" action="https://community.sap.com/t5/community/categorypage.searchformv32.form.form" method="post" id="form_639c00510b1074" name="form_639c00510b1074"><div class="t-invisible"><input value="category-id/successfactors-user-groups" name="t:ac" type="hidden"></input><input value="search/contributions/page" name="t:cp" type="hidden"></input><input value="JIE1Lp8nFCsvVEIux9PK1BHxngh7TwwY6_8bRhAl4IEt2BwleXh2QXYU05AKpF_zI7u8KjdtHhzU_aAkEJupZgjvhsXSdZdX54hXESqfCsRPFGqFXlmj_L0ZN6REn6uw5IPG6jzqBLNBdjoxFz6vWAC_-pGnjtdaXaKo1hJTaqPR68pRM14ExDq5pCspXxwe_pnA6mb3Kc1syNYIitbXDJmuxjAdUg8St_Uw-BX_Sq4mcB95JeMUC3BYwRtyTNaNE2mh_RuQYKgrc-SvU0abusZUPDQynpetIBaAqgtyEy6sTDaLlbSwei4-TxT5JJnNTX6Bqbs9GlHQehV0RWK5Y85K2BqV3LQy9IoZRYLtrQDfwiQIlrM-pakeVOzZ5Cpoi3WWoM59-GilVq4JNCo_r1epgyLc1GBPgcM6AVBFTsxkmtv0glyifNkh5sj1-sZc4IRcZBbMbCTB0nMrbniNJxPX0e_ltasolNXklahW66wPq4JgIhp9JG0fM5djk9I8nxODGTr7ZNhZRdXoHt8HMf5SBacc2M7uV3izSg6EqpNpbEcC4Ov9kT1xvkjLjVcpX37nemL6ux_wASR65VBzSZVqCqZUNAThYyLbOAC6ORiIhqmfP3hasFjqVstaeAic5_PMgtWCrJW4yKmPoiCcLMdWD0FDyp571bPSd8jDXnqeCPp5Z0J8zMUhFAOlbD1ylXpttYZJ6wWaKs4VWG6yWlGcPsQW4Jbu7bmljG3-PxSdt5qUoXZRyvxfws0vM0RqsYmoZVXRbXQfxt-zh5AC8kVsjdoqDwbcMNisMNaRZyL4Rpq7nYme65IZXjmmg6F-ee_k7DGP1nf4aQFm4timL8-TnYaEFgNynz4PHJbihGAf2H1x8ib-2CU1QevIAlY7jsOTqiY6hYGiyvCrXH6PvezNFQaSxmicBjBOn21nQAVFCJbIod66cY-8m71Lw0HluEel3yK6E8Q4i3NV9xaexAdfhQC5wkkEdjf06i94X5ls8IQT41Iqq-aie5VshAj0e3Hy8IIh3HICPt2AyhHvf7lwVXyuGNM2V0qWnbepD4J66KuGOaKMJzfSrRObsgqvNfjM6TQIo87OXyvdvVsb-RbLcibDOBfncjYKjVorXtcsR8iPQFaOi3LGzVwVZ_YfiPhk63uG6hTFGsXQBukf80WF3q9LXwA8neZ7Xlkz59-9V6NPcg6_UCzgNrTBvtJCWnA3efxTpD3nvY4cjUI4ysRUwsNjwm0804a6o0WtlqVvrBUroUjefEaD8GcOyGfg3q5LfaOcXUiUJj9CfmgQfWJ3LB5troRFKYd2l4CiAoU." name="lia-form-context" type="hidden"></input><input value="CategoryPage:category-id/successfactors-user-groups:searchformv32.form:" name="liaFormContentKey" type="hidden"></input><input value="5DI9GWMef1Esyz275vuiiOExwpQ=:H4sIAAAAAAAAALVSTU7CQBR+krAixkj0BrptjcpCMSbERGKCSmxcm+kwlGrbqTOvFDYexRMYL8HCnXfwAG5dubDtFKxgYgu4mrzvm3w/M+/pHcphHQ4kI4L2dMo9FLYZoM09qbeJxQ4V0+XC7e/tamqyBPEChwgbh1JAjQtLIz6hPaYh8ZlEMaxplAvm2KZmEsm0hhmBhOKpzZzOlsEw8LevR5W3zZfPEqy0oJIYc+eCuAyh2rolfaI7xLN0I8rjWfWBj7CuzJvf5osmbxRN3hacMimNwHRtKSOr0XNnv/vx+FoCGPjhMRzljhNLYHrEt9kA5T08ACCsKvREoYuqxqLl8BLO84q4UcMITcG49y/QOGs1pYyESl5p6V6qwRW086rinVmoxMZsiZud/zBUTc6gmVc4kExkJafmcYG1GM9+wfIsCkf2OP54hal5EjnG54z8h0XhjfcF7wQUs5Kz0GTjU2rOjc/llTT4Au07pDOcBQAA" name="t:formdata" type="hidden"></input></div>
+	
+	
+
+	
+
+	
+
+	
+		<div class="lia-inline-ajax-feedback">
+			<div class="AjaxFeedback" id="feedback_639c00510b1074"></div>
+			
+	
+
+	
+
+		</div>
+
+	
+
+	
+
+	
+
+	
+
+
+	
+	<input value="MCjxRrOldcS5j7LE4plq8I6s70WCt-tAMLfcaGiQ0lI." name="lia-action-token" type="hidden"></input>
+	
+	<input value="form_639c00510b1074" id="form_UIDform_639c00510b1074" name="form_UID" type="hidden"></input>
+	<input value="" id="form_instance_keyform_639c00510b1074" name="form_instance_key" type="hidden"></input>
+	
+                
+
+                
+                    
+                        <span class="lia-search-granularity-wrapper">
+                            <select title="Search Granularity" class="lia-search-form-granularity search-granularity" aria-label="Search Granularity" id="searchGranularity_639c00510b1074" name="searchGranularity"><option title="All community" value="khhcw49343|community">All community</option><option title="This category" selected="selected" value="successfactors-user-groups|category">This category</option><option title="Knowledge base" value="tkb|tkb">Knowledge base</option><option title="Users" value="user|user">Users</option><option title="Managed tags" value="product|product">Managed tags</option></select>
+                        </span>
+                    
+                
+
+                <span class="lia-search-input-wrapper">
+                    <span class="lia-search-input-field">
+                        <span class="lia-button-wrapper lia-button-wrapper-secondary lia-button-wrapper-searchForm-action"><input value="searchForm" name="submitContextX" type="hidden"></input><input class="lia-button lia-button-secondary lia-button-searchForm-action" value="Search" id="submitContext_639c00510b1074" name="submitContext" type="submit"></input></span>
+
+                        <span class="lia-hidden-aria-visibile" id="autocompleteInstructionsText_639c00510b1074"></span><input placeholder="Search" aria-label="Search" title="Search" class="lia-form-type-text lia-autocomplete-input search-input lia-search-input-message" value="" id="messageSearchField_639c00510b1074_0" name="messageSearchField" type="text"></input>
+                        <span class="lia-hidden-aria-visibile" id="autocompleteInstructionsText_639c00510b1074_0"></span><input placeholder="Search" aria-label="Search" title="Search" class="lia-form-type-text lia-autocomplete-input search-input lia-search-input-tkb-article lia-js-hidden" value="" id="messageSearchField_639c00510b1074_1" name="messageSearchField_0" type="text"></input>
+                        
+
+	
+		<span class="lia-hidden-aria-visibile" id="autocompleteInstructionsText_639c00510b1074_1"></span><input placeholder="Search" ng-non-bindable="" title="Enter a user name or rank" class="lia-form-type-text UserSearchField lia-search-input-user search-input lia-js-hidden lia-autocomplete-input" aria-label="Enter a user name or rank" value="" id="userSearchField_639c00510b1074" name="userSearchField" type="text"></input>
+	
+
+	
+
+
+                        <span class="lia-hidden-aria-visibile" id="autocompleteInstructionsText_639c00510b1074_2"></span><input placeholder="Search" title="Enter a search word" class="lia-form-type-text NoteSearchField lia-search-input-note search-input lia-js-hidden lia-autocomplete-input" aria-label="Enter a search word" value="" id="noteSearchField_639c00510b1074_0" name="noteSearchField" type="text"></input>
+						<span class="lia-hidden-aria-visibile" id="autocompleteInstructionsText_639c00510b1074_3"></span><input placeholder="Search" title="Enter a search word" class="lia-form-type-text ProductSearchField lia-search-input-product search-input lia-js-hidden lia-autocomplete-input" aria-label="Enter a search word" value="" id="productSearchField_639c00510b1074" name="productSearchField" type="text"></input>
+                        <input class="lia-as-search-action-id" name="as-search-action-id" type="hidden"></input>
+                    </span>
+                </span>
+                
+
+                <span class="lia-cancel-search">cancel</span>
+
+                
+            
+</form>
+		
+			<div class="search-autocomplete-toggle-link lia-js-hidden">
+				<span>
+					<a class="lia-link-navigation auto-complete-toggle-on lia-link-ticket-post-action lia-component-search-action-enable-auto-complete" data-lia-action-token="8_lkJOYBFJ4_uFDSarlgHAbliqB2xowxYQ_oO-zY2Ac." rel="nofollow" id="enableAutoComplete_639c00510b1074" href="https://community.sap.com/t5/community/categorypage.enableautocomplete:enableautocomplete?t:ac=category-id/successfactors-user-groups&amp;t:cp=action/contributions/searchactions">Turn on suggestions</a>					
+					<span class="HelpIcon">
+	<a class="lia-link-navigation help-icon lia-tooltip-trigger" role="button" aria-label="Help Icon" id="link_639c00510b1074" href="#"><span class="lia-img-icon-help lia-fa-icon lia-fa-help lia-fa" alt="Auto-suggest helps you quickly narrow down your search results by suggesting possible matches as you type." aria-label="Help Icon" role="img" id="display_639c00510b1074"></span></a><div role="alertdialog" class="lia-content lia-tooltip-pos-bottom-left lia-panel-tooltip-wrapper" id="link_639c00510b1074_0-tooltip-element"><div class="lia-tooltip-arrow"></div><div class="lia-panel-tooltip"><div class="content">Auto-suggest helps you quickly narrow down your search results by suggesting possible matches as you type.</div></div></div>
+</span>
+				</span>
+			</div>
+		
+
+	
+
+	
+
+	
+	
+	
+</div>
+		
+	<div class="spell-check-showing-result">
+		Showing results for <span class="lia-link-navigation show-results-for-link lia-link-disabled" aria-disabled="true" id="showingResult_639c00510b1074"></span>
+		
+
+	</div>
+	<div>
+		
+		<span class="spell-check-search-instead">
+			Search instead for <a class="lia-link-navigation search-instead-for-link" rel="nofollow" id="searchInstead_639c00510b1074" href="#"></a>
+		</span>
+
+	</div>
+	<div class="spell-check-do-you-mean lia-component-search-widget-spellcheck">
+		Did you mean: <a class="lia-link-navigation do-you-mean-link" rel="nofollow" id="doYouMean_639c00510b1074" href="#"></a>
+	</div>
+
+	
+
+	
+
+	
+
+
+	
+</div>
+    </div>
+</div>
+
+		
+			<div class="hero-content custom-hero-carousel">
+  <div class="custom-hero-carousel-content custom-featured-posts-slider">
+    <div class="hero-carousel-slider slickslide">
+     
+<div class="custom-slider-slide">
+        
+		<p>&nbsp;</p>
+
+    <h3 class="event-title">The SAP Community is all moved in!</h3>
+
+    <p><a href="https://community.sap.com/t5/what-s-new/the-sap-community-is-all-moved-in/ba-p/13582103" aria-label="What's New blogs">Read about </a>what's new and improved after our recent migration...</p>
+
+	
+</div>
+
+
+
+
+
+<div class="custom-slider-slide">
+        <p>&nbsp;</p>
+
+<h3 class="event-title">Hey Newbie! Let’s get started!</h3>
+
+<p>You are quite new in groups? Start with the <a href="https://groups.community.sap.com/t5/welcome-corner/gh-p/welcome-corner" aria-label="Welcome Corner Group">Welcome Corner</a> or <a href="https://groups.community.sap.com/t5/coffee-corner/gh-p/Coffee-Corner" aria-label="Coffee Corner Group">Coffee Corner</a> to find interesting topics and get to know other members.</p>
+</div>
+
+
+
+<div class="custom-slider-slide">
+        <p>&nbsp;</p>
+
+
+    <h3 class="event-title">Join our <a href="https://groups.community.sap.com/t5/sap-learning/gh-p/learning"  aria-label="SAP Learning Group Join button">SAP Learning Group</a></h3>
+
+    <p>The perfect place to ask questions related to our Learning Journeys and certification. You will get SAP expert advice and support!</p>
+</div>    </div>
+  </div>
+</div>
+
+
+
+		
+	
+		</div>
+	
+	
+</div>
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-header-bottom">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-header-bottom-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		
+			
+		
+			
+    <div class="lia-menu-navigation-wrapper lia-js-hidden lia-menu-action lia-page-options lia-component-community-widget-page-options" id="actionMenuDropDown">	
+	<div class="lia-menu-navigation">
+		<div class="dropdown-default-item"><a title="Show option menu" class="lia-js-menu-opener default-menu-option lia-js-mouseover-menu lia-link-navigation" aria-expanded="false" role="button" aria-label="Options" id="dropDownLink" href="#">Options</a>
+			<div class="dropdown-positioning">
+				<div class="dropdown-positioning-static">
+					
+	<ul aria-label="Dropdown menu items" role="list" id="dropdownmenuitems" class="lia-menu-dropdown-items">
+		
+
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			<li role="listitem"><li:subscriptions-category-subscription-editor class="lia-limuirs-comp lia-component-categories-widget-add-category-user-email" data-lia-limuirs-comp="{&quot;mode&quot;:&quot;DEFAULT&quot;,&quot;componentId&quot;:&quot;categories.widget.add-category-user-email&quot;,&quot;path&quot;:&quot;limuirs\u002Fcomponents\u002Fsubscriptions\u002FCategorySubscriptionEditor&quot;,&quot;alias&quot;:&quot;categories.widget.add-category-user-email&quot;,&quot;instance&quot;:0,&quot;fqPath&quot;:&quot;0\u002Flimuirs\u002Fcomponents\u002Fsubscriptions\u002FCategorySubscriptionEditor&quot;}"><span class="lia-menu-item lia-link-navigation lia-link-disabled lia-category-subscription-link">Subscribe</span></li:subscriptions-category-subscription-editor></li>
+		
+	
+	
+
+
+	</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		
+	
+	
+</div>
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-header-feedback">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-feedback">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		
+			
+		
+			
+	
+
+	
+
+		
+			
+        <li:common-feedback class="lia-limuirs-comp lia-component-common-widget-feedback-react lia-component-common-widget-page-feedback" data-lia-limuirs-comp="{&quot;mode&quot;:&quot;DEFAULT&quot;,&quot;componentId&quot;:&quot;common.widget.feedback-react&quot;,&quot;path&quot;:&quot;limuirs\u002Fcomponents\u002Fcommon\u002FFeedback&quot;,&quot;alias&quot;:&quot;common.widget.feedback-react&quot;,&quot;instance&quot;:0,&quot;fqPath&quot;:&quot;0\u002Flimuirs\u002Fcomponents\u002Fcommon\u002FFeedback&quot;}"><noscript></noscript></li:common-feedback>
+        
+	
+
+	
+
+    
+		
+	
+	
+</div>
+		</div>
+	</div>
+</div>
+		
+	
+	
+</div>
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-main-top">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-main-top-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		<div class="custom-getting-started lia-mark-empty">
+			
+		
+			
+		
+	
+		</div>
+	
+	
+
+	
+		
+			
+		
+			
+		
+	
+	
+</div>
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-main">
+		<div class="lia-quilt-column lia-quilt-column-16 lia-quilt-column-left lia-quilt-column-main-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-left">
+	
+		
+			
+		
+			 
+<div class="custom-community-activity" id="custom-loader"> <section> <header> <h2>Recent Activity</h2> <div> <label for="community-activity-sorted-by">Sort By:</label> <select id="community-activity-sorted-by"> <option value="recent" selected>Most recent</option> <option value="views" >Most viewed</option> <option value="replies" >Most commented</option> <option value="topkudos" >Most liked</option> </select> <div class="custom-start-conversation-button"> <a class="lia-button lia-button-primary" href="/plugins/common/feature/oidcss/sso_login_redirect/providerid/sap_ids_baseline_conditional_prod?referer=https%3A%2F%2Fcommunity.sap.com%2Ft5%2Fsap-successfactors-user-groups%2Fct-p%2Fsuccessfactors-user-groups">Sign In to Post</a> </div> </div> </header> <section id="custom-loader-messages"> <div class="errors"></div> <div class="message-list" data-attrib-current-page="0" data-attrib-message-list-type="recent"> </div> <div class="lia-view-all"> <a class="lia-link-navigation load-more-button disabled" href="javascript:;" id="custom-loader-button">+ View more</a> </div> <div id="load-more-aria" role="status" aria-live="assertive" aria-atomic="true" class="sr-only"></div> </section> </section> </div>
+		
+	
+	
+</div>
+		</div><div class="lia-quilt-column lia-quilt-column-08 lia-quilt-column-right lia-quilt-column-side-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-right">
+	
+		
+			<div class="lia-panel lia-panel-standard custom-resource-list ">
+  <div class="lia-decoration-border">
+    <div class="lia-decoration-border-top"><div> </div></div>
+    <div class="lia-decoration-border-content">
+      <div>
+          <div class="lia-panel-heading-bar-wrapper">
+            <div class="lia-panel-heading-bar">
+              <span class="lia-panel-heading-bar-title">Welcome to SAP Community!</span>
+            </div>
+          </div>
+        <div class="lia-panel-content-wrapper">
+          <div class="lia-panel-content">
+            <p>
+These materials will help you participate and connect with other members.
+</p>
+
+<ul class="custom-resource-list-items">
+<li>
+     <img src="/html/assets/community-resources-tile-01.svg" alt="" />
+     <h4><a href="https://groups.community.sap.com/t5/help/faqpage" aria-label="SAP Community FAQ page">FAQs</a></h4>
+     <p>Find answers to basic questions about using SAP Community.</p>
+</li>
+<li>
+     <img src="/html/assets/community-resources-tile-02.svg" alt="" />
+     <h4><a href="https://pages.community.sap.com/resources" aria-label="SAP Community Resources page">Resources</a></h4>
+     <p>Learn about community rules, take our tutorial, and get support.</p>
+</li>
+<li>
+     <img src="/html/assets/community-resources-tile-03.svg" alt="" />
+     <h4><a href="https://groups.community.sap.com/t5/what-s-new/asking-and-answering-questions-in-the-community-after-migration/ba-p/311224" aria-label="Asking and Answering Questions in the Community After Migration blog">Q&A</a></h4>
+     <p>Familiarize yourself with questions and answers.</p>
+</li>
+<li>
+     <img src="/html/assets/community-resources-tile-04.svg" alt="" />
+     <h4><a href="https://groups.community.sap.com/t5/what-s-new/what-you-need-to-know-about-blogging-post-migration/ba-p/309730" aria-label="What You Need to Know About Blogging Post-Migration blog">Blogging</a></h4>
+     <p>Share your knowledge by contributing to the community.</p>
+</li>
+<li>
+     <img src="/html/assets/community-resources-tile-01.svg" alt="" />
+     <h4><a href="https://groups.community.sap.com/t5/welcome-corner/gh-p/welcome-corner" aria-label="Welcome Corner group">Welcome Corner </a></h4>
+     <p>Introduce yourself and get to know other members.</p>
+</li>
+
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lia-decoration-border-bottom">
+      <div> </div>
+    </div>
+  </div>
+</div>
+
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+</div>
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-main-secondary">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-main-secondary-content lia-mark-empty">
+			
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-main-bottom">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-main-bottom-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		
+			<div class="lia-panel lia-panel-standard custom-resource-list ">
+  <div class="lia-decoration-border">
+    <div class="lia-decoration-border-top"><div> </div></div>
+    <div class="lia-decoration-border-content">
+      <div>
+          <div class="lia-panel-heading-bar-wrapper">
+            <div class="lia-panel-heading-bar">
+              <span class="lia-panel-heading-bar-title">Community Resources</span>
+            </div>
+          </div>
+        <div class="lia-panel-content-wrapper">
+          <div class="lia-panel-content">
+            <p>
+These materials will help you participate and connect with other members.
+</p>
+
+<ul class="custom-resource-list-items">
+<li>
+     <img src="/html/assets/rules-of-engagement.svg" alt="" />
+     <h4><a href="https://community.sap.com/resources/rules-of-engagement" aria-label="Rules of Engagement page">Rules of Engagement</a></h4>
+     <p>SAP Community participants should be respectful, supportive, and professional. Get to know the rules that all members should follow, as well as the actions that could lead to the removal of a member's content.</p>
+</li>
+<li>
+     <img src="/html/assets/community-tutorial.svg" alt="" />
+     <h4><a href="https://developers.sap.com/tutorials/community-tour.html" aria-label="Tour the SAP Community tutorial">SAP Community Tutorial</a></h4>
+     <p>The Tour the Community tutorial provides valuable insight into navigating and participating in the community, covering everything from the basics to blogging.</p>
+</li>
+<li>
+     <img src="/html/assets/community-contacts.svg" alt="" />
+     <h4><a href="https://community.sap.com/resources/moderation" aria-label="The SAP Community Points of Contact page">The SAP Community Points of Contact</a></h4>
+     <p>The SAP Community team is ready to answer your questions about our platform. Our team includes moderators who ensure that SAP Community remains a professional source of information, helping mediate conflicts related to moderation activities.</p>
+</li>
+<li>
+     <img src="/html/assets/how-to-videos.svg" alt="" />
+     <h4><a href="https://pages.community.sap.com/resources/how-to-videos" aria-label="How-to Videos Resources">How-to Videos</a></h4>
+     <p>These brief videos illustrate how to navigate SAP Community and take advantage of the platform's functionality, helping you to find content that interests you and contribute to the community.</p>
+</li>
+<li>
+     <img src="/html/assets/privacy.svg" alt="" />
+     <h4><a href="https://community.sap.com/resources/privacy" aria-label="Privacy – FAQs page">Privacy – FAQs</a></h4>
+     <p>Get answers to frequently asked questions about profile privacy, so that you can learn how to get the most out of your SAP Community experience.</p>
+</li>
+<li>
+     <img src="/html/assets/dsa.svg" alt="" />
+     <h4><a href="https://pages.community.sap.com/resources-legal/monthly-active-recipients-according-to-the-dsa" aria-label="Monthly Active Recipients According to the DSA page">Monthly Active Recipients According to the DSA</a></h4>
+     <p>See the average monthly active recipients of the service in the Union (average over the period of the past six months) according to Article 24 (2) of the Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market For Digital Services and amending Directive 2000/31/EC (Digital Services Act).</p>
+</li>
+</ul>
+
+<div class="lia-view-all">
+     <a class="lia-link-navigation view-all-link" href="#">Back To Top</a>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lia-decoration-border-bottom">
+      <div> </div>
+    </div>
+  </div>
+</div>
+
+		
+	
+	
+</div>
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-footer">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-common-footer">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		
+			<div class="lia-quilt lia-quilt-footer lia-quilt-layout-custom-community-footer lia-component-quilt-footer">
+	<div class="lia-quilt-row lia-quilt-row-footer-top">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-footer-top-content lia-mark-empty">
+			
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-footer-main">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-footer-main-content lia-mark-empty">
+			
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-footer-bottom">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-footer-bottom-content lia-mark-empty">
+			
+		</div>
+	</div><div class="lia-quilt-row lia-quilt-row-footer-external">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-footer-external-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		
+			
+<ds-footer
+      navigation-items='[
+{&quot;url&quot;: &quot;https://pages.community.sap.com/resources/sap-community-privacy-statement&quot;, &quot;title&quot;: &quot;Privacy Statement&quot;, &quot;target&quot;: &quot;_blank&quot;, &quot;label&quot;: &quot;Privacy&quot;},
+{&quot;url&quot;: &quot;https://www.sap.com/corporate/en/legal/terms-of-use.html&quot;, &quot;title&quot;: &quot;Terms of Use&quot;, &quot;target&quot;: &quot;_blank&quot;, &quot;label&quot;: &quot;Terms of Use&quot;},
+{&quot;url&quot;: &quot;https://www.sap.com/about/legal/copyright.html&quot;, &quot;title&quot;: &quot;View the Copyright Information&quot;, &quot;target&quot;: &quot;_blank&quot;, &quot;label&quot;: &quot;Copyright&quot;},
+{&quot;url&quot;: &quot;https://www.sap.com/about/legal/impressum.html&quot;, &quot;target&quot;: &quot;_blank&quot;, &quot;label&quot;: &quot;Legal Disclosure&quot;},
+{&quot;url&quot;: &quot;https://www.sap.com/about/legal/trademark.html&quot;, &quot;title&quot;: &quot;View the Trademark Information&quot;, &quot;target&quot;: &quot;_blank&quot;, &quot;label&quot;: &quot;Trademark&quot;},
+{&quot;url&quot;: &quot;https://pages.community.sap.com/resources/moderation&quot;, &quot;title&quot;: &quot;Get SAP Community support&quot;, &quot;target&quot;: &quot;_blank&quot;, &quot;label&quot;: &quot;Support&quot;}
+]'
+      social-links='[{&quot;tooltip&quot;:&quot;Visit the SAP Facebook page for SAP Community&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;rel&quot;:&quot;noopener noreferrer&quot;,&quot;name&quot;:&quot;facebook&quot;,&quot;url&quot;:&quot;https://www.facebook.com/sapcommunity&quot;,&quot;iconName&quot;:&quot;Facebook&quot;},{&quot;tooltip&quot;:&quot;Follow SAP Community on Bluesky&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;rel&quot;:&quot;noopener noreferrer&quot;,&quot;name&quot;:&quot;bluesky&quot;,&quot;url&quot;:&quot;https://bsky.app/profile/sapcommunity.bsky.social&quot;,&quot;iconName&quot;:&quot;Bluesky&quot;},{&quot;tooltip&quot;:&quot;Subscribe to the SAP Community channel on YouTube&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;rel&quot;:&quot;noopener noreferrer&quot;,&quot;name&quot;:&quot;youtube&quot;,&quot;url&quot;:&quot;https://www.youtube.com/@SAPCommunity&quot;,&quot;iconName&quot;:&quot;Youtube&quot;},{&quot;tooltip&quot;:&quot;Follow SAP Developers on LinkedIn&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;rel&quot;:&quot;noopener noreferrer&quot;,&quot;name&quot;:&quot;linkedin&quot;,&quot;url&quot;:&quot;https://www.linkedin.com/showcase/sap-developers&quot;,&quot;iconName&quot;:&quot;LinkedIn&quot;}]'
+      social-links-title='"Follow"'
+      is-show-cookie-preferences="true"
+      mode="light"
+    ></ds-footer>
+
+
+
+		
+	
+	
+</div>
+		</div>
+	</div>
+</div>
+		
+	
+	
+</div>
+		</div>
+	</div>
+</div>
+	
+
+	
+						</div>
+					
+			</div>								
+		</div>
+	</div>
+
+				
+			
+		</center>
+	</div>
+	
+	
+	
+	
+	   <script type="text/javascript">_satellite.pageBottom();</script>
+
+<!-- skin Page Hitbox Content START -->
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+	
+	
+	<script type="text/javascript">
+	new Image().src = ["/","b","e","a","c","o","n","/","2","8","7","3","4","4","1","9","8","8","2","6","_","1","7","5","0","3","3","5","6","2","2","0","0","5",".","g","i","f"].join("");
+</script>
+<script language="javascript" type="text/javascript">
+<!--
+LITHIUM.ScriptLoader.ready(['common', 'body'], function () {LITHIUM.Sandbox.restore();
+LITHIUM.jQuery.fn.cssData.defaults = {"dataPrefix":"lia-js-data","pairDelimeter":"-","prefixDelimeter":"-"};
+(($) => {
+$(document).ready(() => {
+    var Prism = window.PrsmK || window.Prism;
+    var classupdates = [
+            {'old': 'language-visual', 'new': 'language-visual-basic'},
+            {'old': '-basic', 'new': ''},
+            {'old': 'language-excel', 'new': 'language-excel-formula'},
+            {'old': '-formula', 'new': ''}
+        ];
+    const fixer = (el5) => {
+        $.each(classupdates, (i5, v5) => {
+            if ((0 < (v5.old || '').length) && $(el5).hasClass(v5.old)) {
+                if (0 < (v5.new || '').length) $(el5).addClass(v5.new);
+                $(el5).removeClass(v5.old);
+            }
+        });
+    };
+    const worker = (el) => {
+        fixer(el);
+        //add classes for answers and blogs posts
+        if(($(el)[0].className.length > 0) && $(el)[0].className.match(/language-(\w+)/) && !$(el).hasClass('lia-code-sample')) $(el).addClass('lia-code-sample');
+
+        if($(el)[0].className.length === 0) $(el).addClass('lia-code-sample language-abap');
+        //end add classes for answers and blogs
+
+        if (!$(el).hasClass('line-numbers')) $(el).addClass('line-numbers');
+        if ($('> code', el).length < 1){
+            $(el).wrapInner('<code></code>');
+            if($(el).hasClass("language-abap")){
+                $(el).find('> code').addClass('language-abap');
+            }
+        }
+        $('> code', el).each((i, v) => {
+            fixer(v);
+            if ($('.line-numbers-rows', v).length < 1) Prism.highlightElement(v);
+        });
+    };
+    const styleNewSamples = () => {
+        $('body pre.lia-code-sample').each((i2, v2) => {
+            worker(v2);
+        });
+        $('.mce-edit-area iframe').each((i3, v3) => {
+            $(v3).contents().find('body pre.lia-code-sample').each((i4, v4) => {
+                worker(v4);
+            });
+        });
+        //add classes for answers and blogs posts
+        $('body pre').each((i5, v5) => {
+            worker(v5);
+        });
+    };
+    styleNewSamples();
+    setInterval(() => {
+        styleNewSamples();
+    }, 500);
+});
+})(LITHIUM.jQuery);
+
+LITHIUM.CommunityJsonObject.User.policies['forums.action.message-view.batch-messages.allow'] = false;
+    ;(function($) {
+        $(".lia-toggler-component").show();
+        $(".lia-component-messages-widget-toggleable-comments-list.lia-component-message-view-widget-comment-list .ComponentToggler").prepend('<div class="toggle-reply">Replies</div>');
+        $( ".lia-quilt-qanda-question .toggle-reply" ).on( "click", function() {
+          $( ".lia-quilt-qanda-question .lia-component-comment-list .lia-toggler-component" ).toggle();
+          $(".toggle-reply").toggleClass('icon-Inactive');
+        });
+
+        $(".lia-quilt-qanda-answer .toggle-reply" ).on( "click", function() {
+          $( ".lia-quilt-qanda-answer .lia-component-comment-list .lia-toggler-component" ).toggle();
+          $(".toggle-reply").toggleClass('icon-Inactive');
+        });
+        /*This code is to Prevent custom-user-dropdown from closing on dark mode toggle*/
+        $("#custom-user-dropdown .switch").click((e)=>{
+            e.stopPropagation();
+        });
+    })(LITHIUM.jQuery);
+
+    ;(function($) { 
+        if ('category' == 'board') {
+            queryinputs ={ cid : "successfactors-user-groups", ntype : "boards" }
+        } else if ('category' == 'category') {
+            queryinputs ={cid : "successfactors-user-groups", ntype : "categories" }
+        } else if ('category' == 'grouphub') {
+             queryinputs ={cid : "successfactors-user-groups", ntype : "grouphub" }
+        }
+       let url = '/plugins/custom/sap/sap/custom.signposting?tid=-8426898545502537528&xslt=json.xsl'
+        $.ajax({
+            url : url,
+            type : "POST", 
+            data : queryinputs,
+             success: function(data) {
+                const signPostingDiv = document.createElement('div');
+                signPostingDiv.classList.add('custom-signposting-icons');
+
+                if (data?.res?.includes('||')) {
+                    const parts = data.res.split('||').map(part => part.trim());
+                    if (parts[0].length <= 15) {
+                        signPostingDiv.textContent = parts[0];
+                        signPostingDiv.style.color = parts[1];
+                        signPostingDiv.style.borderColor = parts[1];
+                        document.body.appendChild(signPostingDiv);
+                    }
+                } else {
+                    if (data?.res?.length <= 15) {
+                        signPostingDiv.textContent = data.res;
+                        document.body.appendChild(signPostingDiv);
+                    }
+                }
+            },
+            error : function(data){
+                console.log(data)
+            }
+        });
+    })(LITHIUM.jQuery);
+
+LITHIUM.InformationBox({"updateFeedbackEvent":"LITHIUM:updateAjaxFeedback","componentSelector":"#informationbox_639c00510b1074","feedbackSelector":".InfoMessage"});
+LITHIUM.InformationBox({"updateFeedbackEvent":"LITHIUM:updateAjaxFeedback","componentSelector":"#informationbox_639c00510b1074_0","feedbackSelector":".InfoMessage"});
+LITHIUM.InformationBox({"updateFeedbackEvent":"LITHIUM:updateAjaxFeedback","componentSelector":"#informationbox_639c00510b1074_1","feedbackSelector":".InfoMessage"});
+LITHIUM.InformationBox({"updateFeedbackEvent":"LITHIUM:updateAjaxFeedback","componentSelector":"#informationbox_639c00510b1074_2","feedbackSelector":".InfoMessage"});
+LITHIUM.AjaxFeedback(".lia-inline-ajax-feedback", "LITHIUM:hideAjaxFeedback", ".lia-inline-ajax-feedback-persist");
+LITHIUM.Placeholder();
+LITHIUM.AutoComplete({"options":{"autosuggestionAvailableInstructionText":"Auto-suggestions available. Use Up and Down arrow keys to navigate.","triggerTextLength":0,"autocompleteInstructionsSelector":"#autocompleteInstructionsText_639c00510b1074","updateInputOnSelect":true,"loadingText":"Searching...","emptyText":"No Matches","successText":"Results:","defaultText":"Enter a search word","autosuggestionUnavailableInstructionText":"No suggestions available","disabled":false,"footerContent":[{"scripts":"\n\n(function(b){LITHIUM.Link=function(f){function g(a){var c=b(this),e=c.data(\"lia-action-token\");!0!==c.data(\"lia-ajax\")&&void 0!==e&&!1===a.isPropagationStopped()&&!1===a.isImmediatePropagationStopped()&&!1===a.isDefaultPrevented()&&(a.stop(),a=b(\"\\x3cform\\x3e\",{method:\"POST\",action:c.attr(\"href\"),enctype:\"multipart/form-data\"}),e=b(\"\\x3cinput\\x3e\",{type:\"hidden\",name:\"lia-action-token\",value:e}),a.append(e),b(document.body).append(a),a.submit(),d.trigger(\"click\"))}var d=b(document);void 0===d.data(\"lia-link-action-handler\")&&\n(d.data(\"lia-link-action-handler\",!0),d.on(\"click.link-action\",f.linkSelector,g),b.fn.on=b.wrap(b.fn.on,function(a){var c=a.apply(this,b.makeArray(arguments).slice(1));this.is(document)&&(d.off(\"click.link-action\",f.linkSelector,g),a.call(this,\"click.link-action\",f.linkSelector,g));return c}))}})(LITHIUM.jQuery);\nLITHIUM.Link({\n  \"linkSelector\" : \"a.lia-link-ticket-post-action\"\n});LITHIUM.AjaxSupport.defaultAjaxFeedbackHtml = \"<div class=\\\"lia-inline-ajax-feedback lia-component-common-widget-ajax-feedback\\\">\\n\\t\\t\\t<div class=\\\"AjaxFeedback\\\" id=\\\"ajaxFeedback_639c0051314c22\\\"><\\/div>\\n\\t\\t\\t\\n\\t\\n\\n\\t\\n\\n\\t\\t<\\/div>\";LITHIUM.AjaxSupport.defaultAjaxErrorHtml = \"<span id=\\\"feedback-errorfeedback_639c0051491d33\\\"> <\\/span>\\n\\n\\t\\n\\t\\t<div class=\\\"InfoMessage lia-panel-feedback-inline-alert lia-component-common-widget-feedback\\\" id=\\\"feedback_639c0051491d33\\\">\\n\\t\\t\\t<div role=\\\"alert\\\" class=\\\"lia-text\\\">\\n\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t<p ng-non-bindable=\\\"\\\" tabindex=\\\"0\\\">\\n\\t\\t\\t\\t\\t\\tSorry, unable to complete the action you requested.\\n\\t\\t\\t\\t\\t<\\/p>\\n\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\n\\t\\t\\t<\\/div>\\n\\n\\t\\t\\t\\n\\t\\t<\\/div>\";LITHIUM.AjaxSupport.fromLink('#disableAutoComplete_639c00512a0161', 'disableAutoComplete', '#ajaxfeedback_639c00510b1074_0', 'LITHIUM:ajaxError', {}, 'cBBEb_i-TLiOBU1uIyC6K2gF8TzdnTTfHU0fMdIJuRs.', 'ajax');","content":"<a class=\"lia-link-navigation lia-autocomplete-toggle-off lia-link-ticket-post-action lia-component-search-action-disable-auto-complete\" data-lia-action-token=\"YqaPbGxRBGUNwupUH0rfTQceP1vTbBzQt2bS-7LC9rQ.\" rel=\"nofollow\" id=\"disableAutoComplete_639c00512a0161\" href=\"https://community.sap.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/successfactors-user-groups&amp;t:cp=action/contributions/searchactions\">Turn off suggestions<\/a>"}],"prefixTriggerTextLength":3},"inputSelector":"#messageSearchField_639c00510b1074_0","redirectToItemLink":false,"url":"https://community.sap.com/t5/community/categorypage.searchformv32.messagesearchfield.messagesearchfield:autocomplete?t:ac=category-id/successfactors-user-groups&t:cp=search/contributions/page","resizeImageEvent":"LITHIUM:renderImages"});
+LITHIUM.AutoComplete({"options":{"autosuggestionAvailableInstructionText":"Auto-suggestions available. Use Up and Down arrow keys to navigate.","triggerTextLength":0,"autocompleteInstructionsSelector":"#autocompleteInstructionsText_639c00510b1074_0","updateInputOnSelect":true,"loadingText":"Searching...","emptyText":"No Matches","successText":"Results:","defaultText":"Enter a search word","autosuggestionUnavailableInstructionText":"No suggestions available","disabled":false,"footerContent":[{"scripts":"\n\n(function(b){LITHIUM.Link=function(f){function g(a){var c=b(this),e=c.data(\"lia-action-token\");!0!==c.data(\"lia-ajax\")&&void 0!==e&&!1===a.isPropagationStopped()&&!1===a.isImmediatePropagationStopped()&&!1===a.isDefaultPrevented()&&(a.stop(),a=b(\"\\x3cform\\x3e\",{method:\"POST\",action:c.attr(\"href\"),enctype:\"multipart/form-data\"}),e=b(\"\\x3cinput\\x3e\",{type:\"hidden\",name:\"lia-action-token\",value:e}),a.append(e),b(document.body).append(a),a.submit(),d.trigger(\"click\"))}var d=b(document);void 0===d.data(\"lia-link-action-handler\")&&\n(d.data(\"lia-link-action-handler\",!0),d.on(\"click.link-action\",f.linkSelector,g),b.fn.on=b.wrap(b.fn.on,function(a){var c=a.apply(this,b.makeArray(arguments).slice(1));this.is(document)&&(d.off(\"click.link-action\",f.linkSelector,g),a.call(this,\"click.link-action\",f.linkSelector,g));return c}))}})(LITHIUM.jQuery);\nLITHIUM.Link({\n  \"linkSelector\" : \"a.lia-link-ticket-post-action\"\n});LITHIUM.AjaxSupport.fromLink('#disableAutoComplete_639c005183236b', 'disableAutoComplete', '#ajaxfeedback_639c00510b1074_0', 'LITHIUM:ajaxError', {}, 'SE1Nk9jwrOPr-d28LfiKvcFFjG31XqErCKOGR3yZKx4.', 'ajax');","content":"<a class=\"lia-link-navigation lia-autocomplete-toggle-off lia-link-ticket-post-action lia-component-search-action-disable-auto-complete\" data-lia-action-token=\"BIQg1LqZbQi33B0oOXt8J1rWZdYun7-OBfj8S7dztFk.\" rel=\"nofollow\" id=\"disableAutoComplete_639c005183236b\" href=\"https://community.sap.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/successfactors-user-groups&amp;t:cp=action/contributions/searchactions\">Turn off suggestions<\/a>"}],"prefixTriggerTextLength":3},"inputSelector":"#messageSearchField_639c00510b1074_1","redirectToItemLink":false,"url":"https://community.sap.com/t5/community/categorypage.searchformv32.tkbmessagesearchfield.messagesearchfield:autocomplete?t:ac=category-id/successfactors-user-groups&t:cp=search/contributions/page","resizeImageEvent":"LITHIUM:renderImages"});
+LITHIUM.AutoComplete({"options":{"autosuggestionAvailableInstructionText":"Auto-suggestions available. Use Up and Down arrow keys to navigate.","triggerTextLength":0,"autocompleteInstructionsSelector":"#autocompleteInstructionsText_639c00510b1074_1","updateInputOnSelect":true,"loadingText":"Searching for users...","emptyText":"No Matches","successText":"Users found:","defaultText":"Enter a user name or rank","autosuggestionUnavailableInstructionText":"No suggestions available","disabled":false,"footerContent":[{"scripts":"\n\n(function(b){LITHIUM.Link=function(f){function g(a){var c=b(this),e=c.data(\"lia-action-token\");!0!==c.data(\"lia-ajax\")&&void 0!==e&&!1===a.isPropagationStopped()&&!1===a.isImmediatePropagationStopped()&&!1===a.isDefaultPrevented()&&(a.stop(),a=b(\"\\x3cform\\x3e\",{method:\"POST\",action:c.attr(\"href\"),enctype:\"multipart/form-data\"}),e=b(\"\\x3cinput\\x3e\",{type:\"hidden\",name:\"lia-action-token\",value:e}),a.append(e),b(document.body).append(a),a.submit(),d.trigger(\"click\"))}var d=b(document);void 0===d.data(\"lia-link-action-handler\")&&\n(d.data(\"lia-link-action-handler\",!0),d.on(\"click.link-action\",f.linkSelector,g),b.fn.on=b.wrap(b.fn.on,function(a){var c=a.apply(this,b.makeArray(arguments).slice(1));this.is(document)&&(d.off(\"click.link-action\",f.linkSelector,g),a.call(this,\"click.link-action\",f.linkSelector,g));return c}))}})(LITHIUM.jQuery);\nLITHIUM.Link({\n  \"linkSelector\" : \"a.lia-link-ticket-post-action\"\n});LITHIUM.AjaxSupport.fromLink('#disableAutoComplete_639c0051a4e40c', 'disableAutoComplete', '#ajaxfeedback_639c00510b1074_0', 'LITHIUM:ajaxError', {}, '-pVIV_e4XEZBtt79Ss3N4wDYFK9h0kv2nEcGLtMseS0.', 'ajax');","content":"<a class=\"lia-link-navigation lia-autocomplete-toggle-off lia-link-ticket-post-action lia-component-search-action-disable-auto-complete\" data-lia-action-token=\"5K8R6of_QdSxONChkEtBJMMFyl-TwpNiMD3vQzAMhkM.\" rel=\"nofollow\" id=\"disableAutoComplete_639c0051a4e40c\" href=\"https://community.sap.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/successfactors-user-groups&amp;t:cp=action/contributions/searchactions\">Turn off suggestions<\/a>"}],"prefixTriggerTextLength":0},"inputSelector":"#userSearchField_639c00510b1074","redirectToItemLink":false,"url":"https://community.sap.com/t5/community/categorypage.searchformv32.usersearchfield.usersearchfield:autocomplete?t:ac=category-id/successfactors-user-groups&t:cp=search/contributions/page","resizeImageEvent":"LITHIUM:renderImages"});
+LITHIUM.AjaxSupport({"ajaxOptionsParam":{"event":"LITHIUM:userExistsQuery","parameters":{"javascript.ignore_combine_and_minify":"true"}},"tokenId":"ajax","elementSelector":"#userSearchField_639c00510b1074","action":"userExistsQuery","feedbackSelector":"#ajaxfeedback_639c00510b1074_0","url":"https://community.sap.com/t5/community/categorypage.searchformv32.usersearchfield:userexistsquery?t:ac=category-id/successfactors-user-groups&t:cp=search/contributions/page","ajaxErrorEventName":"LITHIUM:ajaxError","token":"Grcw_s5EHw1SOYfU3DR4HoAAvQIW8u63y4jQqIj3tQA."});
+LITHIUM.AutoComplete({"options":{"autosuggestionAvailableInstructionText":"Auto-suggestions available. Use Up and Down arrow keys to navigate.","triggerTextLength":0,"autocompleteInstructionsSelector":"#autocompleteInstructionsText_639c00510b1074_2","updateInputOnSelect":true,"loadingText":"Searching...","emptyText":"No Matches","successText":"Results:","defaultText":"Enter a search word","autosuggestionUnavailableInstructionText":"No suggestions available","disabled":false,"footerContent":[{"scripts":"\n\n(function(b){LITHIUM.Link=function(f){function g(a){var c=b(this),e=c.data(\"lia-action-token\");!0!==c.data(\"lia-ajax\")&&void 0!==e&&!1===a.isPropagationStopped()&&!1===a.isImmediatePropagationStopped()&&!1===a.isDefaultPrevented()&&(a.stop(),a=b(\"\\x3cform\\x3e\",{method:\"POST\",action:c.attr(\"href\"),enctype:\"multipart/form-data\"}),e=b(\"\\x3cinput\\x3e\",{type:\"hidden\",name:\"lia-action-token\",value:e}),a.append(e),b(document.body).append(a),a.submit(),d.trigger(\"click\"))}var d=b(document);void 0===d.data(\"lia-link-action-handler\")&&\n(d.data(\"lia-link-action-handler\",!0),d.on(\"click.link-action\",f.linkSelector,g),b.fn.on=b.wrap(b.fn.on,function(a){var c=a.apply(this,b.makeArray(arguments).slice(1));this.is(document)&&(d.off(\"click.link-action\",f.linkSelector,g),a.call(this,\"click.link-action\",f.linkSelector,g));return c}))}})(LITHIUM.jQuery);\nLITHIUM.Link({\n  \"linkSelector\" : \"a.lia-link-ticket-post-action\"\n});LITHIUM.AjaxSupport.fromLink('#disableAutoComplete_639c0051c42cc0', 'disableAutoComplete', '#ajaxfeedback_639c00510b1074_0', 'LITHIUM:ajaxError', {}, '_VeanxTHMct6elqZA8YkI6hcKlKqw2yvoTpMfWeBVJ4.', 'ajax');","content":"<a class=\"lia-link-navigation lia-autocomplete-toggle-off lia-link-ticket-post-action lia-component-search-action-disable-auto-complete\" data-lia-action-token=\"YDW6xAds5KZzF9Q7UUf9rPQHSRT5nbfvcGnvCyAIr4I.\" rel=\"nofollow\" id=\"disableAutoComplete_639c0051c42cc0\" href=\"https://community.sap.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/successfactors-user-groups&amp;t:cp=action/contributions/searchactions\">Turn off suggestions<\/a>"}],"prefixTriggerTextLength":0},"inputSelector":"#noteSearchField_639c00510b1074_0","redirectToItemLink":false,"url":"https://community.sap.com/t5/community/categorypage.searchformv32.notesearchfield.notesearchfield:autocomplete?t:ac=category-id/successfactors-user-groups&t:cp=search/contributions/page","resizeImageEvent":"LITHIUM:renderImages"});
+LITHIUM.AutoComplete({"options":{"autosuggestionAvailableInstructionText":"Auto-suggestions available. Use Up and Down arrow keys to navigate.","triggerTextLength":0,"autocompleteInstructionsSelector":"#autocompleteInstructionsText_639c00510b1074_3","updateInputOnSelect":true,"loadingText":"Searching...","emptyText":"No Matches","successText":"Results:","defaultText":"Enter a search word","autosuggestionUnavailableInstructionText":"No suggestions available","disabled":false,"footerContent":[{"scripts":"\n\n(function(b){LITHIUM.Link=function(f){function g(a){var c=b(this),e=c.data(\"lia-action-token\");!0!==c.data(\"lia-ajax\")&&void 0!==e&&!1===a.isPropagationStopped()&&!1===a.isImmediatePropagationStopped()&&!1===a.isDefaultPrevented()&&(a.stop(),a=b(\"\\x3cform\\x3e\",{method:\"POST\",action:c.attr(\"href\"),enctype:\"multipart/form-data\"}),e=b(\"\\x3cinput\\x3e\",{type:\"hidden\",name:\"lia-action-token\",value:e}),a.append(e),b(document.body).append(a),a.submit(),d.trigger(\"click\"))}var d=b(document);void 0===d.data(\"lia-link-action-handler\")&&\n(d.data(\"lia-link-action-handler\",!0),d.on(\"click.link-action\",f.linkSelector,g),b.fn.on=b.wrap(b.fn.on,function(a){var c=a.apply(this,b.makeArray(arguments).slice(1));this.is(document)&&(d.off(\"click.link-action\",f.linkSelector,g),a.call(this,\"click.link-action\",f.linkSelector,g));return c}))}})(LITHIUM.jQuery);\nLITHIUM.Link({\n  \"linkSelector\" : \"a.lia-link-ticket-post-action\"\n});LITHIUM.AjaxSupport.fromLink('#disableAutoComplete_639c0051e7283a', 'disableAutoComplete', '#ajaxfeedback_639c00510b1074_0', 'LITHIUM:ajaxError', {}, '39QKRttIKD-TOF1d9OtOmabQpKptMNSpWU9GtAtbmaA.', 'ajax');","content":"<a class=\"lia-link-navigation lia-autocomplete-toggle-off lia-link-ticket-post-action lia-component-search-action-disable-auto-complete\" data-lia-action-token=\"_PkFpk2A_Ah3XKwNj03DHpTi3-KxOuEOUAVlOJAm_cE.\" rel=\"nofollow\" id=\"disableAutoComplete_639c0051e7283a\" href=\"https://community.sap.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/successfactors-user-groups&amp;t:cp=action/contributions/searchactions\">Turn off suggestions<\/a>"}],"prefixTriggerTextLength":0},"inputSelector":"#productSearchField_639c00510b1074","redirectToItemLink":false,"url":"https://community.sap.com/t5/community/categorypage.searchformv32.productsearchfield.productsearchfield:autocomplete?t:ac=category-id/successfactors-user-groups&t:cp=search/contributions/page","resizeImageEvent":"LITHIUM:renderImages"});
+LITHIUM.Link({"linkSelector":"a.lia-link-ticket-post-action"});
+LITHIUM.AjaxSupport.fromLink('#enableAutoComplete_639c00510b1074', 'enableAutoComplete', '#ajaxfeedback_639c00510b1074_0', 'LITHIUM:ajaxError', {}, 'bQHlZZYmEN0TDL_xbU3zUEuXbtAxthACNib4CHecdGQ.', 'ajax');
+LITHIUM.Tooltip({"bodySelector":"body#lia-body","delay":30,"enableOnClickForTrigger":false,"predelay":10,"triggerSelector":"#link_639c00510b1074","tooltipContentSelector":"#link_639c00510b1074_0-tooltip-element .content","position":["bottom","left"],"tooltipElementSelector":"#link_639c00510b1074_0-tooltip-element","events":{"def":"focus mouseover keydown,blur mouseout keydown"},"hideOnLeave":true});
+LITHIUM.HelpIcon({"selectors":{"helpIconSelector":".help-icon .lia-img-icon-help"}});
+LITHIUM.SearchAutoCompleteToggle({"containerSelector":"#searchautocompletetoggle_639c00510b1074","enableAutoCompleteSelector":".search-autocomplete-toggle-link","enableAutocompleteSuccessEvent":"LITHIUM:ajaxSuccess:enableAutoComplete","disableAutoCompleteSelector":".lia-autocomplete-toggle-off","disableAutocompleteSuccessEvent":"LITHIUM:ajaxSuccess:disableAutoComplete","autoCompleteSelector":".lia-autocomplete-input"});
+LITHIUM.SearchForm({"asSearchActionIdSelector":".lia-as-search-action-id","useAutoComplete":true,"selectSelector":".lia-search-form-granularity","useClearSearchButton":false,"buttonSelector":".lia-button-searchForm-action","asSearchActionIdParamName":"as-search-action-id","formSelector":"#lia-searchformV32_639c00510b1074","nodesModel":{"khhcw49343|community":{"title":"Search Community: SAP SuccessFactors User Groups","inputSelector":".lia-search-input-message"},"tkb|tkb":{"title":"Knowledge base","inputSelector":".lia-search-input-tkb-article"},"successfactors-user-groups|category":{"title":"Search Category: SAP SuccessFactors User Groups","inputSelector":".lia-search-input-message"},"product|product":{"title":"Managed tags","inputSelector":".lia-search-input-product"},"user|user":{"title":"Users","inputSelector":".lia-search-input-user"}},"asSearchActionIdHeaderKey":"X-LI-AS-Search-Action-Id","inputSelector":"#messageSearchField_639c00510b1074_0:not(.lia-js-hidden)","clearSearchButtonSelector":null});
+; (function () {
+    var buttonPrev = "<button type='button' aria-label='Previous' class='slick-prev'><span class='lia-fa lia-fa-chevron-left' aria-hidden='true'></span></button>";
+    var buttonNext = "<button type='button' aria-label='Next' class='slick-next'><span class='lia-fa lia-fa-chevron-right' aria-hidden='true'></span></button>";
+
+    $(document).ready(function () {
+        slickLoaded(0);
+
+        function slickLoaded(count) {
+            if (typeof $.fn.slick === "function") {
+                $('.hero-carousel-slider.slickslide').not('.slick-initialized').each(function () {
+                    var $this = $(this);
+                    var numSlides = $(this).children(".custom-slider-slide").length;
+
+                    if (numSlides > 0) {
+
+                      var options = {
+						autoplay: true,
+						autoplaySpeed: 3000,
+						infinite: true,
+						speed: 500,
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						dots: true,
+						arrows: true,
+						prevArrow: buttonPrev,
+						nextArrow: buttonNext,
+						variableWidth: false,
+						accessibility: false,
+						easing: 'easeOutElastic'
+                      };
+                      
+                      $this.slick(options);
+                  	}
+                });
+            } else if (count < 100) {
+                setTimeout(function () {
+                    slickLoaded(count + 1);
+                }, 100);
+            }
+        }
+    });
+})();
+
+LITHIUM.DropDownMenu({"userMessagesFeedOptionsClass":"div.user-messages-feed-options-menu a.lia-js-menu-opener","menuOffsetContainer":".lia-menu-offset-container","hoverLeaveEvent":"LITHIUM:hoverLeave","mouseoverElementSelector":".lia-js-mouseover-menu","userMessagesFeedOptionsAriaLabel":"Show contributions of the user, selected option is Options. You may choose another option from the dropdown menu.","disabledLink":"lia-link-disabled","menuOpenCssClass":"dropdownHover","menuElementSelector":".lia-menu-navigation-wrapper","dialogSelector":".lia-panel-dialog-trigger","messageOptions":"lia-component-message-view-widget-action-menu","menuBarComponent":"lia-component-menu-bar","closeMenuEvent":"LITHIUM:closeMenu","menuOpenedEvent":"LITHIUM:menuOpened","pageOptions":"lia-component-community-widget-page-options","clickElementSelector":".lia-js-click-menu","menuItemsSelector":".lia-menu-dropdown-items","menuClosedEvent":"LITHIUM:menuClosed"});
+LITHIUM.DropDownMenuVisibilityHandler({"selectors":{"menuSelector":"#actionMenuDropDown","menuItemsSelector":".lia-menu-dropdown-items"}});
+LITHIUM.InformationBox({"updateFeedbackEvent":"LITHIUM:updateAjaxFeedback","componentSelector":"#pageInformation","feedbackSelector":".InfoMessage"});
+LITHIUM.InformationBox({"updateFeedbackEvent":"LITHIUM:updateAjaxFeedback","componentSelector":"#informationbox","feedbackSelector":".InfoMessage"});
+       ;(function($) {
+           $(document).ready(function() {
+ 
+               var getMessages = function (spinnerTarget, clearMessages) {
+                   var parentComponent = $('#custom-loader');
+                   var messageTarget = $('.message-list', parentComponent);
+                   var currentPage = null;
+                   var returnedMessageCount = 0;
+                   try {
+                       currentPage = parseInt($(messageTarget).attr('data-attrib-current-page'), 10);
+                   } catch (e) {
+                       currentPage = 0;
+                   }
+                   
+                   $.ajax({
+                       type: 'post',
+                       url : '/plugins/custom/sap/sap/theme-lib.community-activity?tid=-8426898545502537528',
+                       dataType: 'json',
+                       data: {"currentPage": currentPage, "node": "successfactors-user-groups", "scope":"category", "messageListType": $(messageTarget).attr('data-attrib-message-list-type'), "allowedInteractionStyles": "none"},
+                       context: parentComponent,
+                       beforeSend: function(jqXHR, settings) {
+                           $('#custom-loader-messages .errors', parentComponent).empty();
+                           $(spinnerTarget).prepend('<div class="spinner"></div>');
+                       },
+                       error: function (jqXHR, textStatus, errorThrown) {
+                           $('#custom-loader-messages .errors', parentComponent).append(errorThrown);
+                       },
+                       success: function (data, textStatus, jqXHR) {
+                           if (data.status == 'success') {
+                                let totalListSize = messageTarget.children(".custom-message-tile").length;
+                               if (clearMessages) {
+                                   messageTarget.empty();
+                               }
+                               if (data.messages.length > 0) {
+                                   messageTarget.append(data.messages);
+                                   let messageMatch =  data.messages.match(/custom-message-tile/gi)
+                                   returnedMessageCount = messageMatch ? messageMatch.length : 0;
+                               } else {
+                                   if (clearMessages) {
+                                       messageTarget.append('<div class="no-messages">No posts to display.</div>');
+                                   }
+                               }
+                                totalListSize = messageTarget.children(".custom-message-tile").length;
+                               if (data.EOR == 'true') {
+                                   $('#custom-loader-button').addClass('disabled');
+                               } else {
+                                   $('#custom-loader-button').removeClass('disabled');
+                               }
+                               //Set aria text regarding number of messages loaded. Since count is set in JS it cannot be passed to text key.
+                               let statusString = "";
+                               if (returnedMessageCount === 1){
+                                    statusString += " new message loaded.";
+                               }else{
+                                    statusString += returnedMessageCount + " new messages loaded. ";
+                               }
+                               statusString += totalListSize + " total items in list.";
+                               $('#load-more-aria').text(statusString);
+                               //Find the first newly loaded message and set focus to the first focusable child.
+                                $("#custom-loader #custom-loader-messages .message-list .custom-message-tile").eq(-returnedMessageCount).find(':focusable')[0].focus();
+                           } else {
+                               $('#custom-loader-messages .errors', parentComponent).append(data.message);
+                           }
+                       },
+                       complete: function(jqXHR, textStatus) {
+                           $('.spinner', spinnerTarget).remove();
+                       }
+                   });
+               };
+ 
+               $('#community-activity-sorted-by').change(function() {
+                   var messageTarget = $('#custom-loader .message-list');
+                   messageTarget.attr('data-attrib-message-list-type', $(this).val());
+                   $(messageTarget).attr('data-attrib-current-page', '0');
+                   getMessages($('#custom-loader'), true);
+               });
+ 
+               $('#custom-loader-button').click( function(evt) {
+                   evt.preventDefault();
+                   if ($(this).hasClass('disabled')) {
+                       return;
+                   }
+                   var currentPage = null;
+                   var messageTarget = $('#custom-loader .message-list');
+                   try {
+                       currentPage = parseInt($(messageTarget).attr('data-attrib-current-page'), 10);
+                   } catch (e) {
+                       currentPage = 0;
+                   }
+                   $(messageTarget).attr('data-attrib-current-page', (currentPage + 1));
+                   getMessages($('#custom-loader-button'), false);
+               });
+           });
+       })(LITHIUM.jQuery);
+
+;document.createElement('ds-footer');
+document.addEventListener('openCookiePreferences', (e) => {
+  truste.eu.reopenBanner();
+
+});
+
+LITHIUM.PartialRenderProxy({"limuirsComponentRenderedEvent":"LITHIUM:limuirsComponentRendered","relayEvent":"LITHIUM:partialRenderProxyRelay","listenerEvent":"LITHIUM:partialRenderProxy"});
+LITHIUM.AjaxSupport({"ajaxOptionsParam":{"event":"LITHIUM:partialRenderProxyRelay","parameters":{"javascript.ignore_combine_and_minify":"true"}},"tokenId":"ajax","elementSelector":document,"action":"partialRenderProxyRelay","feedbackSelector":false,"url":"https://community.sap.com/t5/community/categorypage.liabase.basebody.partialrenderproxy:partialrenderproxyrelay?t:ac=category-id/successfactors-user-groups","ajaxErrorEventName":"LITHIUM:ajaxError","token":"H6j63m80Wj0dfVW4I0vAInOhvGfNwkLjMq5yftOLPoQ."});
+LITHIUM.Auth.API_URL = "/t5/util/authcheckpage";
+LITHIUM.Auth.LOGIN_URL_TMPL = "/plugins/common/feature/oidcss/sso_login_redirect/providerid/sap_ids_baseline_conditional_prod?referer=https%3A%2F%2FREPLACE_TEXT";
+LITHIUM.Auth.KEEP_ALIVE_URL = "/t5/status/blankpage?keepalive";
+LITHIUM.Auth.KEEP_ALIVE_TIME = 300000;
+LITHIUM.Auth.CHECK_SESSION_TOKEN = 'KYrCrBmd9SADVV9jVjSa2wkBcfG5mR2RSADJa_nt4Dc.';
+LITHIUM.AjaxSupport.useTickets = false;
+LITHIUM.Loader.runJsAttached();
+
+});
+// -->
+</script></body>
+</html>
