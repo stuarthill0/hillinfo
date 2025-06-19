@@ -1,70 +1,41 @@
-SAP ECC Modules
+SAP ECC Modules to lines of Business
 
+Finance
 SAP Financial Accounting (SAP FI)
-
-The financial accounting module of focused on the legal side of finances; that is, maintaining accurate ledgers and preparing financial statements for yearly reporting mandates. Key financial statements like the balance sheet, income statement, and cash flow statement were handled by those working with the FI module.
 SAP Controlling (SAP CO)
-In contrast to financial accounting, the controlling module focused on the managerial side of finances. Those working with the CO module would make decisions on things like product pricing, intercompany accounting, and diversification.
+.SAP Treasury and Risk Management (SAP TRM)
+.SAP Investment Management (SAP IM)
+.SAP Financial Supply Chain Management (SAP FSCM)
 
-SAP Treasury and Risk Management (SAP TRM)
-
-The SAP Treasury and Risk Management module allowed financials users to manage cash, liquidity, financial risk, and investment portfolios, while also staying in compliance with all relevant legal regulations. This helped to optimize cash flow and manage debt. Components such as Cash Management, Risk Management, Transaction Manager, and Hedge Management existed within SAP TRM.
-SAP Investment Management (SAP IM)
-
-In contrast to SAP TRM, the SAP Investment Management module focused on managing capital investments and project funding. This allowed organizations plan and monitor capital expenditure projects, better manage budgeting and approval, and handle long-term planning.
-SAP Financial Supply Chain Management (SAP FSCM)
-
-The SAP Financial Supply Chain Management module focused on the tasks that are undertaken to improve the financial wellbeing of the business, particularly in the order-to-cash and purchase-to-pay cycles. This helped to optimize working capital and keep cash reserves plentiful.
-
-SAP Supply Chain Management (SAP SCM)
-
-The SAP Supply Chain Management module helped businesses meet market demand. Those using SAP SCM would plan stock levels, manufacture products from raw materials, fulfill orders, transport finished products, and collaborate with suppliers and other vendor partners, among other tasks. Submodules like SAP Advanced Planning and Optimization existed within the SAP SCM module.
+Sourcing and Procurement / Supply Chain and Procurement
 SAP Supplier Relationship Management (SAP SRM)
-
-The SAP Supplier Relationship Management module focused on the procurement process and the different stakeholders involved. This included monitoring and measuring the efficiency of suppliers and vendors, tracking procurement activities, sourcing assignment of orders, managing contracts and invoices, and more.
-
 SAP Materials Management (SAP MM)
 
-The SAP Materials Management module referred to the business processes of procurement; that is, involved in managing the flow of materials from the supplier to the manufacturer, followed by the manufacturer maintaining sufficient inventory at its end to ensure a smoother supply chain.
+Supply Chain
+.SAP Supply Chain Management (SAP SCM)
+SAP Transportation Management (SAP TM)
+EWM
 
-SAP Warehouse Management (SAP WM)
-
-The SAP Warehouse Management module was a set of functionalities focused on providing inventory accuracy, optimized utilization of warehouse space, and streamlined picking and putaway. It focused on inbound, outbound, and internal processing of stock. An extended version SAP WM, called SAP EWM, was also part of the SAP WM module in the later years of SAP ECC’s lifecycle.
-
+Manufacturing / Production and Maintenance
 SAP Production Planning (SAP PP)
-
-The SAP Production Planning module was used as a way for companies to benefit from historical data to prepare a forecast that could then be used in sales, operations, materials, and production.
-SAP Plant Maintenance (SAP PM)
-
-The SAP Plant Maintenance module (also known as SAP Enterprise Asset Management) focused on maintaining an organization’s physical infrastructure throughout its lifecycle, from acquisition through operations to decommissioning.
-
 SAP Quality Management (SAP QM)
 
-The SAP Quality Management module gave users ways to manage the output quality of their products. This included inspections, quality notifications, managing batches and samples, and more.
+Asset Management
+.SAP Plant Maintenance (SAP PM)
+.SAP Warehouse Management (SAP WM)
 
-SAP Transportation Management (SAP TM)
-
-The SAP Transportation Management module referred to the business processes involved in managing the transfer of goods from suppliers or vendors to customers.
-
+R&D Engineering 
 SAP Product Lifecycle Management (SAP PLM)
 
-The SAP Product Lifecycle Management module focused on the products a business offers from conceptualization to sunset. Operations such as portfolio planning, research and development, and manufacturing were considered tasks to complete with SAP PLM.
-
-SAP Project System (SAP PS)
-
-In contrast to SAP PLM, the SAP Project System module supported management of individual projects: mapping development, planning, budgeting, controlling, and invoicing, among other tasks.
+Sales / Sales and Customer Management
 SAP Sales and Distribution (SAP SD)
-
-The SAP Sales and Distribution module helped users manage their sales activities at all stages of the process, from inquiries to contracts to shipping to billing to returns.
 SAP Customer Relationship Management (SAP CRM)
 
-The SAP Customer Relationship Management module focused on customer management. This included areas such as marketing, sales, service, and e-commerce.
+Core ERP Processes / Others
 SAP Human Capital Management (SAP HCM)
-
-The SAP Human Capital Management (HCM) module, sometimes referred to as SAP Human Resources Management, focused on core HR functions such as personnel administration, organizational management, payroll, and time management. Submodules such as Manager Self Services and Employee Self Services existed with SAP HCM.
-
+SAP Project System (SAP PS)
+SCM,IBP
 SAP Industry Modules (SAP IS)
-SAP also provided a number of industry-specific solutions for those needing specialized functionality. This included options for automotive, healthcare, retail, telecom, real estate, and oil & gas businesses. They typically employed the prefix IS, followed by a specific module letter—for example, IS-M for media companies. 
 
 SAP S/4HANA Lines of Business
 
