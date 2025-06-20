@@ -1,6 +1,17 @@
-Contents
+# SAP S/4HANA for Beginners - A Course
 
-Jump to the [architecture](#architecture).
+
+## 11 Lessons teaching everything you need to know to start building AI Agents
+
+GitHub license GitHub contributors GitHub issues GitHub pull-requests PRs Welcome
+
+### 🌐 Multi-Language Support
+
+#### SAP
+
+## Getting Started
+
+This course has 11 lessons covering [architecture](#architecture).
 
 | Legacy Modules  | Lines of Business (LoB) |  
 | ----- | -------- |
