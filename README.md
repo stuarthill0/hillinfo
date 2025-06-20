@@ -57,7 +57,14 @@ Architecture [architecture](/page/#architecture).
 
 [AI](https://github.com/microsoft/ai-agents-for-beginners)
 
-🙏 Want to help?
+Next steps
+
+If you want to practice the skills you've learned in this tutorial again, try the GitHub Skills "Introduction to GitHub" course.
+In the next tutorial, Setting up your profile, you'll learn how to personalize your profile and you'll also learn some basic Markdown syntax for writing on GitHub.
+
+Further reading
+
+Help and Support
 
 Do you have suggestions or found spelling or code errors? Raise an issue or Create a pull request
 
