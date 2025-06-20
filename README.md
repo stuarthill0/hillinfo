@@ -7,11 +7,11 @@ GitHub license GitHub contributors GitHub issues GitHub pull-requests PRs Welcom
 
 ### 🌐 Multi-Language Support
 
-#### SAP
-
 ## Getting Started
 
-This course has 11 lessons covering [architecture](#architecture).
+This course has 11 lessons covering [Modules to LoB S4HANA architecture](#LoB) [architecture](#architecture).
+
+#### Lines of Business
 
 | Legacy Modules  | Lines of Business (LoB) |  
 | ----- | -------- |
