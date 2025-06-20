@@ -50,3 +50,11 @@ Architecture [architecture](/page/#architecture).
 [SAP Discovery Center Service - Audit Log Service](https://discovery-center.cloud.sap/serviceCatalog/audit-log-service?region=all)
 
 [AI](https://github.com/microsoft/ai-agents-for-beginners)
+
+🙏 Want to help?
+
+Do you have suggestions or found spelling or code errors? Raise an issue or Create a pull request
+
+If you get stuck or have any questions about building AI Agents, join our Azure AI Foundry Community Discord
+
+If you have product feedback or errors whilst building visit our Azure AI Foundry Developer Forum
