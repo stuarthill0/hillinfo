@@ -1,5 +1,11 @@
 # SAP S/4HANA for Beginners - A Course
 
+What is the course page?
+You can use Page to learning.
+Who can use this feature?
+Page is available in public repositories for private.
+
+GitHub Pages now uses GitHub Actions to execute the Jekyll build. When using a branch as the source of your build, GitHub Actions must be enabled in your repository if you want to use the built-in Jekyll workflow. Alternatively, if GitHub Actions is unavailable or disabled, adding a .nojekyll file to the root of your source branch will bypass the Jekyll build process and deploy the content directly. For more information on enabling GitHub Actions, see Managing GitHub Actions settings for a repository.
 
 ## 10 Lessons teaching everything you need to know to start SAP
 
