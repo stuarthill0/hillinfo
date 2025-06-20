@@ -1,4 +1,4 @@
-
+Introduction
 
 | Legacy Modules  | Lines of Business (LoB) |  
 | ----- | -------- |
@@ -23,3 +23,12 @@ The SAP S/4HANA Sales LoB focuses on the activities associated with the fulfilli
 SAP S/4HANA R&D/Engineering
 
 The SAP S/4HANA R&D LoB focuses on the lifecycle of a product. This includes defining the product structure and bill of materials, product lifecycle costing, managing portfolios and projects, managing innovation, managing chemical data and other sensitive materials used in development, and staying compliant with safety and health regulations.
+
+Architecture
+
+[CIO Guide: Identity Lifecycle in SAP Landscapes](https://www.sap.com/documents/2018/05/38ce7d25-067d-0010-87a3-c30de2ffd8ff.html)
+[Initial Setup | SAP Help Portal](https://help.sap.com/docs/start/sap-start/setup)
+[SAP Discovery Center Mission - Establish single sign-on to your cloud solutions](https://discovery-center.cloud.sap/missiondetail/3114/3151/)
+[Onboard to SAP Cloud Identity Services | SAP Help Portal](https://help.sap.com/docs/btp/btp-admin-guide/onboard-to-sap-cloud-identity-services)
+[Identity Access Management (IAM) Reference Archite... - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/identity-access-management-iam-reference-architectures-2024/ba-p/13697891)
+[Security Recommendations | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/fafa6639cf7b4265b68da63efbc8fb96.html)
