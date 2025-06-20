@@ -1,7 +1,7 @@
 # SAP S/4HANA for Beginners - A Course
 
 
-## 11 Lessons teaching everything you need to know to start building AI Agents
+## 10 Lessons teaching everything you need to know to start SAP
 
 GitHub license GitHub contributors GitHub issues GitHub pull-requests PRs Welcome
 
