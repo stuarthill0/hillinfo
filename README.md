@@ -32,3 +32,4 @@ Architecture
 [Onboard to SAP Cloud Identity Services | SAP Help Portal](https://help.sap.com/docs/btp/btp-admin-guide/onboard-to-sap-cloud-identity-services)
 [Identity Access Management (IAM) Reference Archite... - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/identity-access-management-iam-reference-architectures-2024/ba-p/13697891)
 [Security Recommendations | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/fafa6639cf7b4265b68da63efbc8fb96.html)
+[SAP Discovery Center Service - Audit Log Service](https://discovery-center.cloud.sap/serviceCatalog/audit-log-service?region=all)
