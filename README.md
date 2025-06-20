@@ -1,4 +1,6 @@
-Introduction
+Contents
+
+Jump to the [architecture](#architecture).
 
 | Legacy Modules  | Lines of Business (LoB) |  
 | ----- | -------- |
@@ -24,7 +26,9 @@ SAP S/4HANA R&D/Engineering
 
 The SAP S/4HANA R&D LoB focuses on the lifecycle of a product. This includes defining the product structure and bill of materials, product lifecycle costing, managing portfolios and projects, managing innovation, managing chemical data and other sensitive materials used in development, and staying compliant with safety and health regulations.
 
-Architecture
+Architecture [architecture](/page/#architecture).
+
+![Architecture](https://image.example.com "Link title") linked to [Website name](https://website.com).
 
 [CIO Guide: Identity Lifecycle in SAP Landscapes](https://www.sap.com/documents/2018/05/38ce7d25-067d-0010-87a3-c30de2ffd8ff.html)
 [Initial Setup | SAP Help Portal](https://help.sap.com/docs/start/sap-start/setup)
