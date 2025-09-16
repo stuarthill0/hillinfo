@@ -1,6 +1,6 @@
 # Home — CHILL
 
-## About (use prominently on About page)
+## About
 
 Data protection & trustworthy AI for Swiss innovators
 Governance, compliance and practical implementation for LLMs, RAG, and multi-modal systems — balancing innovation with privacy, fairness and regulatory readiness.
@@ -125,5 +125,6 @@ Do you have suggestions or found spelling or code errors? Raise an issue or Crea
 If you get stuck or have any questions about building AI Agents, join our Azure AI Foundry Community Discord
 
 If you have product feedback or errors whilst building visit our Azure AI Foundry Developer Forum
+
 
 
