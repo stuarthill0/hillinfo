@@ -1,6 +1,7 @@
 # Home — CHILL
 
-What is CHILL?
+## About (use prominently on About page)
+
 Data protection & trustworthy AI for Swiss innovators
 Governance, compliance and practical implementation for LLMs, RAG, and multi-modal systems — balancing innovation with privacy, fairness and regulatory readiness.
 Primary CTA: Book a free 30-minute consultation
@@ -29,14 +30,7 @@ Training & Workshops
 Executive briefings, engineering workshops, legal + product cross-functional training on responsible AI operation.
 Deliverables: Custom training deck, tabletop incident exercise.
 
-## About (use prominently on About page)
-
-
-Title: About — Trusted across startups & enterprise
-Bio (polished version using your content)
-I combine technical depth, business strategy and regulatory know-how to help organisations deploy responsible AI and robust data protection. I established governance frameworks and implemented trustworthy AI practices across solutions for over 300 startups, ensuring both innovation and responsible deployment of technologies like Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and multi-modal systems.
-My work spans finance, retail and aerospace — from building explainable AI systems with embedded fairness, accountability and transparency (FAT) principles to implementing AI-based predictive maintenance with clear audit trails and bias-mitigated machine learning models. I hold an MBA, am SAFe Certified (PO/PM), and have a MicroMasters in Data Science, Statistics, and Business (MIT, UC San Diego, Univ. of Wisconsin–Madison). I also hold a B.S. in Aerospace Engineering and built a ground-truth data layer supporting design optimization at the Samsung Design Innovation Center (SDIC), helping product designers use data-driven insights for wearables.
-Why work with us: pragmatic governance, demonstrated results, and an eye for safety-critical systems.
+deployment of technologies like Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and multi-modal systems.
 
 ### 🌐 Case study (one detailed example to use on the site)
 
@@ -131,4 +125,5 @@ Do you have suggestions or found spelling or code errors? Raise an issue or Crea
 If you get stuck or have any questions about building AI Agents, join our Azure AI Foundry Community Discord
 
 If you have product feedback or errors whilst building visit our Azure AI Foundry Developer Forum
+
 
