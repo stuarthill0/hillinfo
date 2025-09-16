@@ -1,17 +1,77 @@
-# SAP S/4HANA for Beginners - A Course
+# Home — CHILL
 
-What is the course page?
-You can use Page to learning.
-Who can use this feature?
-Page is available in public repositories for private.
+What is CHILL?
+Data protection & trustworthy AI for Swiss innovators
+Governance, compliance and practical implementation for LLMs, RAG, and multi-modal systems — balancing innovation with privacy, fairness and regulatory readiness.
+Primary CTA: Book a free 30-minute consultation
+Secondary CTA: Download our Responsible AI checklist (PDF)
+Short intro paragraph (50–70 words):
+We help startups and enterprises in Switzerland design, deploy and govern privacy-preserving, explainable AI systems. I’ve implemented governance and trustworthy-AI practices for 300+ startups across finance, retail and aerospace—covering LLMs, Retrieval-Augmented Generation (RAG) and multi-modal solutions — so you can move fast while staying compliant and accountable.
 
-GitHub Pages now uses GitHub Actions to execute the Jekyll build. When using a branch as the source of your build, GitHub Actions must be enabled in your repository if you want to use the built-in Jekyll workflow. Alternatively, if GitHub Actions is unavailable or disabled, adding a .nojekyll file to the root of your source branch will bypass the Jekyll build process and deploy the content directly. For more information on enabling GitHub Actions, see Managing GitHub Actions settings for a repository.
 
-## 10 Lessons teaching everything you need to know to start SAP
+Services (summary tiles — each tile links to its own page)
+AI Governance & Responsible AI
+Establish AI governance frameworks, model risk assessments, model cards, and operational FAT (Fairness, Accountability, Transparency) controls.
+Deliverables: Governance playbook, decision log, vendor checklist, model card templates.
+Data Protection & GDPR / Swiss FADP Compliance
+Data protection impact assessments (DPIAs), cross-border transfer strategies, records of processing, and policy drafting (DPO support available).
+Deliverables: DPIA report, data inventory, minimization roadmap.
+LLM / RAG Risk Assessment & Hardening
+Threat modeling for prompt injection, data leakage, hallucination mitigation, RAG indexing hygiene, and red-team testing.
+Deliverables: LLM risk register, mitigation backlog, monitoring rules.
+Explainability, Bias Detection & Auditable Models
+Explainability tooling, bias testing, and traceable pipelines for audit trails and operational monitoring.
+Deliverables: Explainability report, fairness metrics dashboard spec.
+Privacy-Preserving Engineering
+Techniques including differential privacy, secure multi-party computation alternatives, anonymization standards, and secure foundations for ML pipelines.
+Deliverables: Privacy design spec, pseudonymization implementation guide.
+Training & Workshops
+Executive briefings, engineering workshops, legal + product cross-functional training on responsible AI operation.
+Deliverables: Custom training deck, tabletop incident exercise.
 
-GitHub license GitHub contributors GitHub issues GitHub pull-requests PRs Welcome
+## About (use prominently on About page)
 
-### 🌐 Multi-Language Support
+
+Title: About — Trusted across startups & enterprise
+Bio (polished version using your content)
+I combine technical depth, business strategy and regulatory know-how to help organisations deploy responsible AI and robust data protection. I established governance frameworks and implemented trustworthy AI practices across solutions for over 300 startups, ensuring both innovation and responsible deployment of technologies like Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and multi-modal systems.
+My work spans finance, retail and aerospace — from building explainable AI systems with embedded fairness, accountability and transparency (FAT) principles to implementing AI-based predictive maintenance with clear audit trails and bias-mitigated machine learning models. I hold an MBA, am SAFe Certified (PO/PM), and have a MicroMasters in Data Science, Statistics, and Business (MIT, UC San Diego, Univ. of Wisconsin–Madison). I also hold a B.S. in Aerospace Engineering and built a ground-truth data layer supporting design optimization at the Samsung Design Innovation Center (SDIC), helping product designers use data-driven insights for wearables.
+Why work with us: pragmatic governance, demonstrated results, and an eye for safety-critical systems.
+
+### 🌐 Case study (one detailed example to use on the site)
+
+Trust & Compliance — Key facts to show (copyable block)
+We design programs to meet Switzerland’s Federal Act on Data Protection (FADP), in force since 1 September 2023. 
+Fedlex
++1
+We align work with the Federal Data Protection & Information Commissioner (FDPIC) guidance for Swiss organisations. 
+EDÖB
+When processing or offering services to EU residents, GDPR territorial rules apply — we implement GDPR-compatible measures for cross-border operations. 
+EU-REP.Global
++1
+We prepare organisations for the EU AI Act obligations and risk-based rules (timelines for obligations for general-purpose and high-risk models are in effect). 
+Artificial Intelligence Act
++1
+We can advise on compliant international transfer mechanisms (e.g., adequacy solutions and certified frameworks). For example, the Swiss-U.S. Data Privacy Framework enables certain transfers under that program.
+
+##Deliverables & process (how you work)
+Assess (2–4 weeks): Data inventory, model inventory, DPIA scoping, vendor map.
+Define (2–6 weeks): Governance framework, policy set, roles (DPO, Model Owner), technical controls.
+Implement (ongoing): Pipelines, monitoring, hardening, training.
+Operate: Continuous monitoring, periodic audits, update roadmap.
+(Adjust durations per client; present as sample timeline on contracts.)
+Pricing / engagement models (examples to display)
+Fixed-scope project — DPIA + remediation plan: CHF 12,000–45,000
+Governance & build (end-to-end) — monthly retainers: CHF 8,000–25,000 / month (depending on scope)
+DPO as a Service — monthly fee + per-incident hourly rate
+Workshops & training — from CHF 2,500 (half day)
+(Include “Contact for a tailored quote” as final CTA. Adjust pricing to your market.)
+
+## Contact / CTA
+Headline: Ready to protect your data and deploy responsible AI?
+CTA: Book a free 30-minute consultation — [calendar link]
+Form fields: Name, Company, Role, Project summary, Country, Preferred date/time, file upload (optional).
+Footer: Headquartered in Switzerland — services available EU / CH / global.
 
 ## Getting Started
 
@@ -71,3 +131,4 @@ Do you have suggestions or found spelling or code errors? Raise an issue or Crea
 If you get stuck or have any questions about building AI Agents, join our Azure AI Foundry Community Discord
 
 If you have product feedback or errors whilst building visit our Azure AI Foundry Developer Forum
+
