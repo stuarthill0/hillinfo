@@ -70,6 +70,9 @@ Footer: Headquartered in Switzerland — services available EU / CH / global.
 ## Getting Started
 
 This course has 11 lessons covering [Modules to LoB S4HANA architecture](#LoB) [architecture](#architecture).
+
+connect to sharepoint library, odata source
+
  1)sap (Copilot) 
  https://www.youtube.com/watch?v=4V9dtkAk-lk&themeRefresh=1
  2)non sap
@@ -132,6 +135,7 @@ Do you have suggestions or found spelling or code errors? Raise an issue or Crea
 If you get stuck or have any questions about building AI Agents, join our Azure AI Foundry Community Discord
 
 If you have product feedback or errors whilst building visit our Azure AI Foundry Developer Forum
+
 
 
 
